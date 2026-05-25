@@ -1348,6 +1348,6 @@ class Tooltip {
 
 <div align="center">
 
-**Next:** [`performance/05-memory-leaks.md`](./05-memory-leaks.md) →
+**Next:** [`performance/04-raf-optimization.md`](./04-raf-optimization.md) →
 
 </div>
