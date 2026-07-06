@@ -71,21 +71,34 @@ frontend-engineering-handbook/
 │   └── mental-models.md                   ← How senior engineers think
 │
 ├── javascript-core/                       ← JS engine internals (15 files)
-│   ├── 01-execution-context.md
-│   ├── 02-call-stack.md
-│   ├── 03-event-loop.md
-│   ├── 04-microtask-vs-macrotask.md
-│   ├── 05-closures.md
-│   ├── 06-prototypes.md
-│   ├── 07-scope-chain.md
-│   ├── 08-memory-management.md
-│   ├── 09-garbage-collection.md
-│   ├── 10-async-patterns.md
-│   ├── 11-promise-internals.md
-│   ├── 12-web-workers.md
-│   ├── 13-service-workers.md
-│   ├── 14-observer-patterns.md
-│   └── 15-pub-sub-systems.md
+│   ├── 01-variables-and-data-types.md
+│   ├── 02-operators-and-expressions.md
+│   ├── 03-control-flow.md
+│   ├── 04-functions-fundamentals.md
+│   ├── 05-arrays-and-iteration.md
+│   ├── 06-objects-and-destructuring.md
+│   ├── 07-strings-and-regex.md
+│   ├── 08-error-handling.md
+│   ├── 09-es6-modern-syntax.md
+│   ├── 10-modules-and-bundling.md
+│   ├── 11-iterators-and-generators.md
+│   ├── 12-proxy-reflect-and-metaprogramming.md
+│   ├── 13-typed-arrays-and-binary-data.md
+│   ├── 14-execution-context.md
+│   ├── 15-call-stack.md
+│   ├── 16-event-loop.md
+│   ├── 17-microtask-vs-macrotask.md
+│   ├── 18-closures.md
+│   ├── 19-prototypes.md
+│   ├── 20-scope-chain.md
+│   ├── 21-memory-management.md
+│   ├── 22-garbage-collection.md
+│   ├── 23-async-patterns.md
+│   ├── 24-promise-internals.md
+│   ├── 25-web-workers.md
+│   ├── 26-service-workers.md
+│   ├── 27-observer-patterns.md
+│   └── 28-pub-sub-systems.md
 │
 ├── browser-internals/                     ← How browsers actually work (10 files)
 │   ├── 01-rendering-pipeline.md

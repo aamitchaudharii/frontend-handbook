@@ -20,7 +20,7 @@
 | File                                                                   | Topic             | What You'll Learn                                                                      |
 | ---------------------------------------------------------------------- | ----------------- | -------------------------------------------------------------------------------------- |
 | [`01-variables-and-data-types.md`](./16-variables-and-data-types.md)   | Variables & Types | `var`/`let`/`const`, primitives vs reference, type coercion, `typeof`                  |
-| [`02operators-and-expressions.md`](./17-operators-and-expressions.md)  | Operators         | Arithmetic, comparison, logical, ternary, nullish coalescing, optional chaining        |
+| [`02-operators-and-expressions.md`](./17-operators-and-expressions.md) | Operators         | Arithmetic, comparison, logical, ternary, nullish coalescing, optional chaining        |
 | [`03-control-flow.md`](./18-control-flow.md)                           | Control Flow      | `if`/`else`, `switch`, `for`/`while`/`do-while`, `break`/`continue`                    |
 | [`04-functions-fundamentals.md`](./19-functions-fundamentals.md)       | Functions         | Declarations vs expressions, arrow functions, default params, rest/spread, IIFE        |
 | [`05-arrays-and-iteration.md`](./20-arrays-and-iteration.md)           | Arrays            | `map`/`filter`/`reduce`, spread, destructuring, `for...of`, common patterns            |
