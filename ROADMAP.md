@@ -115,37 +115,37 @@ flowchart LR
 
 | Day | Topic             | File                                                                                    | Exercise                                                  |
 | --- | ----------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| 1   | Execution Context | [`javascript-core/01-execution-context.md`](../javascript-core/01-execution-context.md) | Draw the execution context stack for a given code snippet |
-| 2   | Call Stack        | [`javascript-core/02-call-stack.md`](../javascript-core/02-call-stack.md)               | Trace a recursive function's stack frames                 |
-| 3   | Scope Chain       | [`javascript-core/07-scope-chain.md`](../javascript-core/07-scope-chain.md)             | Predict output of 5 scope chain puzzles                   |
-| 4   | Closures          | [`javascript-core/05-closures.md`](../javascript-core/05-closures.md)                   | Build a module pattern using closures                     |
-| 5   | Prototypes        | [`javascript-core/06-prototypes.md`](../javascript-core/06-prototypes.md)               | Implement inheritance without `class` keyword             |
+| 1   | Execution Context | [`javascript-core/14-execution-context.md`](../javascript-core/14-execution-context.md) | Draw the execution context stack for a given code snippet |
+| 2   | Call Stack        | [`javascript-core/15-call-stack.md`](../javascript-core/15-call-stack.md)               | Trace a recursive function's stack frames                 |
+| 3   | Scope Chain       | [`javascript-core/20-scope-chain.md`](../javascript-core/20-scope-chain.md)             | Predict output of 5 scope chain puzzles                   |
+| 4   | Closures          | [`javascript-core/18-closures.md`](../javascript-core/18-closures.md)                   | Build a module pattern using closures                     |
+| 5   | Prototypes        | [`javascript-core/19-prototypes.md`](../javascript-core/19-prototypes.md)               | Implement inheritance without `class` keyword             |
 
 ### Week 2 — Concurrency Model
 
 | Day | Topic                  | File                                                                                              | Exercise                                               |
 | --- | ---------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| 1–2 | Event Loop (deep)      | [`javascript-core/03-event-loop.md`](../javascript-core/03-event-loop.md)                         | Predict output of 10 event loop puzzles                |
-| 3   | Microtask vs Macrotask | [`javascript-core/04-microtask-vs-macrotask.md`](../javascript-core/04-microtask-vs-macrotask.md) | Trace execution order of mixed Promise/setTimeout code |
-| 4–5 | Async Patterns         | [`javascript-core/10-async-patterns.md`](../javascript-core/10-async-patterns.md)                 | Implement a rate limiter using async patterns          |
+| 1–2 | Event Loop (deep)      | [`javascript-core/16-event-loop.md`](../javascript-core/16-event-loop.md)                         | Predict output of 10 event loop puzzles                |
+| 3   | Microtask vs Macrotask | [`javascript-core/17-microtask-vs-macrotask.md`](../javascript-core/17-microtask-vs-macrotask.md) | Trace execution order of mixed Promise/setTimeout code |
+| 4–5 | Async Patterns         | [`javascript-core/23-async-patterns.md`](../javascript-core/23-async-patterns.md)                 | Implement a rate limiter using async patterns          |
 
 ### Week 3 — Memory & Engine
 
 | Day | Topic                   | File                                                                                      | Exercise                                      |
 | --- | ----------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------- |
-| 1–2 | Memory Management       | [`javascript-core/08-memory-management.md`](../javascript-core/08-memory-management.md)   | Find 3 memory leaks in provided code samples  |
-| 3   | Garbage Collection      | [`javascript-core/09-garbage-collection.md`](../javascript-core/09-garbage-collection.md) | Profile memory in DevTools on a provided demo |
-| 4   | Promise Internals       | [`javascript-core/11-promise-internals.md`](../javascript-core/11-promise-internals.md)   | Implement a basic Promise from scratch        |
-| 5   | Deep clone optimization | [`javascript-core/10-async-patterns.md`](../javascript-core/10-async-patterns.md)         | Benchmark 4 deep clone strategies             |
+| 1–2 | Memory Management       | [`javascript-core/21-memory-management.md`](../javascript-core/21-memory-management.md)   | Find 3 memory leaks in provided code samples  |
+| 3   | Garbage Collection      | [`javascript-core/22-garbage-collection.md`](../javascript-core/22-garbage-collection.md) | Profile memory in DevTools on a provided demo |
+| 4   | Promise Internals       | [`javascript-core/24-promise-internals.md`](../javascript-core/24-promise-internals.md)   | Implement a basic Promise from scratch        |
+| 5   | Deep clone optimization | [`javascript-core/23-async-patterns.md`](../javascript-core/23-async-patterns.md)         | Benchmark 4 deep clone strategies             |
 
 ### Week 4 — Workers & Patterns
 
 | Day | Topic             | File                                                                                    | Exercise                                |
 | --- | ----------------- | --------------------------------------------------------------------------------------- | --------------------------------------- |
-| 1–2 | Web Workers       | [`javascript-core/12-web-workers.md`](../javascript-core/12-web-workers.md)             | Offload a heavy computation to a Worker |
-| 3   | Service Workers   | [`javascript-core/13-service-workers.md`](../javascript-core/13-service-workers.md)     | Build an offline-capable page           |
-| 4   | Observer Patterns | [`javascript-core/14-observer-patterns.md`](../javascript-core/14-observer-patterns.md) | Build a reactive data binding system    |
-| 5   | Pub-Sub Systems   | [`javascript-core/15-pub-sub-systems.md`](../javascript-core/15-pub-sub-systems.md)     | Build a typed event bus                 |
+| 1–2 | Web Workers       | [`javascript-core/25-web-workers.md`](../javascript-core/25-web-workers.md)             | Offload a heavy computation to a Worker |
+| 3   | Service Workers   | [`javascript-core/26-service-workers.md`](../javascript-core/26-service-workers.md)     | Build an offline-capable page           |
+| 4   | Observer Patterns | [`javascript-core/27-observer-patterns.md`](../javascript-core/27-observer-patterns.md) | Build a reactive data binding system    |
+| 5   | Pub-Sub Systems   | [`javascript-core/28-pub-sub-systems.md`](../javascript-core/28-pub-sub-systems.md)     | Build a typed event bus                 |
 
 ### ✅ Phase 1 Completion Checklist
 
@@ -205,7 +205,7 @@ flowchart TD
 | --- | ------------------------------ | --------------------------------------------------------------------------------------------------- |
 | 1–2 | Browser Caching                | [`browser-internals/09-browser-caching.md`](../browser-internals/09-browser-caching.md)             |
 | 3–4 | SSR vs CSR vs ISR vs Streaming | [`browser-internals/10-ssr-csr-isr-streaming.md`](../browser-internals/10-ssr-csr-isr-streaming.md) |
-| 5   | Profiling with DevTools        | [`debugging/01-performance-tab.md`](../debugging/01-performance-tab.md)                             |
+| 5   | Profiling with DevTools        | [`debugging/01-chrome-devtools.md`](../debugging/01-chrome-devtools.md)                             |
 
 ### ✅ Phase 2 Completion Checklist
 
@@ -231,15 +231,15 @@ flowchart TD
 | 1–2 | DOM Optimization         | [`performance/01-dom-optimization.md`](../performance/01-dom-optimization.md) |
 | 3   | Layout Thrashing         | [`performance/03-layout-thrashing.md`](../performance/03-layout-thrashing.md) |
 | 4   | Event Delegation         | [`performance/06-event-delegation.md`](../performance/06-event-delegation.md) |
-| 5   | Anti-patterns: DOM abuse | [`anti-patterns/01-dom-abuse.md`](../anti-patterns/01-dom-abuse.md)           |
+| 5   | Anti-patterns: DOM abuse | [`anti-patterns/01-prop-drilling.md`](../anti-patterns/01-prop-drilling.md)   |
 
 ### Week 2 — Memory & Leak Detection
 
 | Day | Topic                       | File                                                                                      |
 | --- | --------------------------- | ----------------------------------------------------------------------------------------- |
 | 1–2 | Memory Leaks                | [`performance/05-memory-leaks.md`](../performance/05-memory-leaks.md)                     |
-| 3   | Anti-patterns: Memory leaks | [`anti-patterns/02-memory-leak-patterns.md`](../anti-patterns/02-memory-leak-patterns.md) |
-| 4   | Memory tab in DevTools      | [`debugging/02-memory-tab.md`](../debugging/02-memory-tab.md)                             |
+| 3   | Anti-patterns: Memory leaks | [`anti-patterns/05-memory-leaks.md`](../anti-patterns/05-memory-leaks.md)                 |
+| 4   | Memory tab in DevTools      | [`debugging/01-chrome-devtools.md`](../debugging/01-chrome-devtools.md)                   |
 | 5   | Memoization                 | [`performance/07-memoization.md`](../performance/07-memoization.md)                       |
 
 ### Week 3 — Rendering & Animation Performance
@@ -248,7 +248,7 @@ flowchart TD
 | --- | ---------------------- | ------------------------------------------------------------------------------------- |
 | 1–2 | RAF Optimization       | [`performance/04-raf-optimization.md`](../performance/04-raf-optimization.md)         |
 | 3   | Cooperative Scheduling | [`rendering/03-cooperative-scheduling.md`](../rendering/03-cooperative-scheduling.md) |
-| 4   | UI Freezing Solutions  | [`rendering/05-ui-freezing-solutions.md`](../rendering/05-ui-freezing-solutions.md)   |
+| 4   | UI Freezing Solutions  | [`rendering/05-hydration-patterns.md`](../rendering/05-hydration-patterns.md)         |
 | 5   | DOM Batching           | [`rendering/01-dom-batching.md`](../rendering/01-dom-batching.md)                     |
 
 ### Week 4 — Virtualization & Large Data
@@ -256,7 +256,7 @@ flowchart TD
 | Day | Topic                      | File                                                                                          |
 | --- | -------------------------- | --------------------------------------------------------------------------------------------- |
 | 1–3 | Virtualization & Windowing | [`performance/02-virtualization-windowing.md`](../performance/02-virtualization-windowing.md) |
-| 4   | Incremental Rendering      | [`rendering/04-incremental-rendering.md`](../rendering/04-incremental-rendering.md)           |
+| 4   | Paint Optimization         | [`rendering/04-paint-optimization.md`](../rendering/04-paint-optimization.md)                 |
 | 5   | IntersectionObserver       | [`performance/09-intersection-observer.md`](../performance/09-intersection-observer.md)       |
 
 ### Week 5 — Canvas, SVG & Bundle
@@ -299,10 +299,10 @@ graph TD
 
 | Day | Topic                  | File                                                                                        |
 | --- | ---------------------- | ------------------------------------------------------------------------------------------- |
-| 1–2 | Component Architecture | [`architecture/01-component-architecture.md`](../architecture/01-component-architecture.md) |
-| 3   | Module Patterns        | [`architecture/03-module-patterns.md`](../architecture/03-module-patterns.md)               |
-| 4   | Data Flow Patterns     | [`architecture/02-data-flow-patterns.md`](../architecture/02-data-flow-patterns.md)         |
-| 5   | Plugin Architecture    | [`architecture/04-plugin-architecture.md`](../architecture/04-plugin-architecture.md)       |
+| 1–2 | Layered Architecture   | [`architecture/01-layered-architecture.md`](../architecture/01-layered-architecture.md)     |
+| 3   | Domain-Driven Design   | [`architecture/03-domain-driven-design.md`](../architecture/03-domain-driven-design.md)     |
+| 4   | Clean Architecture     | [`architecture/02-clean-architecture.md`](../architecture/02-clean-architecture.md)         |
+| 5   | Reactive Architecture  | [`architecture/04-reactive-architecture.md`](../architecture/04-reactive-architecture.md)   |
 
 ### Week 2 — System Design Fundamentals
 
@@ -320,15 +320,15 @@ graph TD
 | 1–2 | Micro-frontends       | [`system-design/03-micro-frontends.md`](../system-design/03-micro-frontends.md)             |
 | 3   | Config-driven UI      | [`system-design/05-config-driven-ui.md`](../system-design/05-config-driven-ui.md)           |
 | 4   | Event-driven Frontend | [`system-design/06-event-driven-frontend.md`](../system-design/06-event-driven-frontend.md) |
-| 5   | Plugin Systems        | [`system-design/07-plugin-systems.md`](../system-design/07-plugin-systems.md)               |
+| 5   | Plugin Systems        | [`system-design/07-plugin-system.md`](../system-design/07-plugin-system.md)                 |
 
 ### Week 4 — Patterns & Anti-Patterns
 
 | Day | Topic                | File                                                              |
 | --- | -------------------- | ----------------------------------------------------------------- |
-| 1   | Observer Pattern     | [`patterns/01-observer.md`](../patterns/01-observer.md)           |
-| 2   | Mediator Pattern     | [`patterns/02-mediator.md`](../patterns/02-mediator.md)           |
-| 3   | Proxy Pattern        | [`patterns/05-proxy-pattern.md`](../patterns/05-proxy-pattern.md) |
+| 1   | Component Composition | [`patterns/01-component-composition.md`](../patterns/01-component-composition.md) |
+| 2   | Custom Hooks          | [`patterns/02-custom-hooks.md`](../patterns/02-custom-hooks.md)                   |
+| 3   | Compound Components   | [`patterns/05-compound-components.md`](../patterns/05-compound-components.md)     |
 | 4   | Anti-patterns survey | [`anti-patterns/`](../anti-patterns/)                             |
 | 5   | Caching Strategies   | [`caching/`](../caching/)                                         |
 
@@ -367,14 +367,14 @@ flowchart LR
 
 | Week | Project                                                              | What You Practice                         |
 | ---- | -------------------------------------------------------------------- | ----------------------------------------- |
-| 1    | [`Custom State Manager`](../projects/08-custom-state-manager/)       | Proxy, subscription model, immutability   |
-| 2    | [`Virtualized Table`](../projects/01-virtualized-table/)             | DOM recycling, scroll performance         |
-| 3    | [`Infinite Scroll`](../projects/02-infinite-scroll/)                 | IntersectionObserver, async data loading  |
-| 4    | [`Frontend Cache Layer`](../projects/07-frontend-cache-layer/)       | LRU, TTL, IndexedDB integration           |
-| 5    | [`Drag-Drop Dashboard`](../projects/04-drag-drop-dashboard/)         | Pointer events, geometry calculations     |
-| 6    | [`SVG Connection Engine`](../projects/06-svg-connection-engine/)     | Dynamic SVG, path math, performance       |
-| 7    | [`Canvas Rendering Engine`](../projects/05-canvas-rendering-engine/) | 2D context, dirty rectangles, layers      |
-| 8    | [`Real-Time Dashboard`](../projects/09-realtime-dashboard/)          | WebSockets, incremental updates, batching |
+| 1    | [`Custom State Manager`](../challenges/02-build-a-state-management-library.md) | Proxy, subscription model, immutability   |
+| 2    | [`Virtualized List`](../challenges/01-build-a-virtualized-list.md)             | DOM recycling, scroll performance         |
+| 3    | [`Infinite Scroll Gallery`](../projects/06-infinite-scroll-gallery.md)         | IntersectionObserver, async data loading  |
+| 4    | [`Kanban Board`](../projects/03-kanban-board.md)                               | Drag-and-drop, fractional indexing, a11y  |
+| 5    | [`Analytics Dashboard`](../projects/05-analytics-dashboard.md)                 | Independent widget loading, LTTB sampling |
+| 6    | [`Markdown Editor`](../projects/04-markdown-editor.md)                         | Web Worker parsing, scroll sync, autosave |
+| 7    | [`E-Commerce Product Page`](../projects/02-ecommerce-product-page.md)          | Variant selection, LCP, SEO               |
+| 8    | [`Real-Time Chat`](../projects/01-realtime-chat-application.md)                | WebSockets, optimistic UI, virtualization |
 
 ### Build Principles
 
@@ -396,10 +396,10 @@ Every project should be built with these constraints:
 
 | Week | Focus                   | Files                                                                                   |
 | ---- | ----------------------- | --------------------------------------------------------------------------------------- |
-| 1    | Deep JS questions       | [`interview/01-js-deep-questions.md`](../interview/01-js-deep-questions.md)             |
-| 1    | Browser questions       | [`interview/04-browser-questions.md`](../interview/04-browser-questions.md)             |
-| 2    | Performance questions   | [`interview/03-performance-questions.md`](../interview/03-performance-questions.md)     |
-| 2–3  | System design questions | [`interview/02-system-design-questions.md`](../interview/02-system-design-questions.md) |
+| 1    | Deep JS questions       | [`interview/01-javascript-questions.md`](../interview/01-javascript-questions.md)           |
+| 1    | Behavioral questions    | [`interview/04-behavioral-questions.md`](../interview/04-behavioral-questions.md)           |
+| 2    | React questions         | [`interview/02-react-questions.md`](../interview/02-react-questions.md)                     |
+| 2–3  | System design questions | [`interview/03-system-design-questions.md`](../interview/03-system-design-questions.md)     |
 
 ### Sample Senior-Level Interview Questions
 
@@ -466,31 +466,31 @@ Learning deeply requires revisiting concepts. Suggested review schedule:
 
 ### 🔥 Must-Read (Start Here)
 
-1. [`javascript-core/03-event-loop.md`](../javascript-core/03-event-loop.md)
+1. [`javascript-core/16-event-loop.md`](../javascript-core/16-event-loop.md)
 2. [`browser-internals/01-rendering-pipeline.md`](../browser-internals/01-rendering-pipeline.md)
 3. [`performance/03-layout-thrashing.md`](../performance/03-layout-thrashing.md)
 4. [`performance/05-memory-leaks.md`](../performance/05-memory-leaks.md)
-5. [`rendering/05-ui-freezing-solutions.md`](../rendering/05-ui-freezing-solutions.md)
+5. [`rendering/03-cooperative-scheduling.md`](../rendering/03-cooperative-scheduling.md)
 6. [`system-design/01-large-scale-architecture.md`](../system-design/01-large-scale-architecture.md)
 
 ### 📖 Deep Dives (After Foundations)
 
-7. [`javascript-core/11-promise-internals.md`](../javascript-core/11-promise-internals.md)
+7. [`javascript-core/24-promise-internals.md`](../javascript-core/24-promise-internals.md)
 8. [`browser-internals/06-composite-layers.md`](../browser-internals/06-composite-layers.md)
 9. [`performance/02-virtualization-windowing.md`](../performance/02-virtualization-windowing.md)
 10. [`system-design/03-micro-frontends.md`](../system-design/03-micro-frontends.md)
 
 ### 🏗️ Build These Projects (In This Order)
 
-11. [`projects/08-custom-state-manager/`](../projects/08-custom-state-manager/)
-12. [`projects/01-virtualized-table/`](../projects/01-virtualized-table/)
-13. [`projects/06-svg-connection-engine/`](../projects/06-svg-connection-engine/)
+11. [`challenges/02-build-a-state-management-library.md`](../challenges/02-build-a-state-management-library.md)
+12. [`challenges/01-build-a-virtualized-list.md`](../challenges/01-build-a-virtualized-list.md)
+13. [`projects/04-markdown-editor.md`](../projects/04-markdown-editor.md)
 
 ---
 
 <div align="center">
 
-**Ready to start?** → [`Phase 1: JavaScript Core Internals`](../javascript-core/01-execution-context.md)
+**Ready to start?** → [`Phase 1: JavaScript Core Internals`](../javascript-core/14-execution-context.md)
 
 _The roadmap is a guide, not a cage. Follow your curiosity, but always go deep._
 

@@ -32,7 +32,8 @@ You're in the right place.
 
 | Section                 | Topics Covered                                                | Files |
 | ----------------------- | ------------------------------------------------------------- | ----- |
-| JavaScript Core         | Event loop, closures, memory, async, workers                  | 15    |
+| JavaScript Core         | Variables, types, event loop, closures, memory, async, workers| 28    |
+| TypeScript              | Types, generics, mapped/conditional, React, tsconfig          | 17    |
 | Browser Internals       | Rendering pipeline, CRP, paint, composite, SSR                | 10    |
 | Performance Engineering | DOM opt, virtualization, RAF, bundle, images                  | 12    |
 | Frontend System Design  | Micro-frontends, state, architecture, tradeoffs               | 8     |
@@ -53,7 +54,7 @@ You're in the right place.
 | Examples                | Isolated copy-paste reference implementations                 | 1     |
 | Diagrams                | Mermaid architecture diagrams                                 | 1     |
 
-**Total: 116 files · 3.7 MB of content**
+**Total: 148 files · 4 MB of content**
 
 ---
 
@@ -244,8 +245,8 @@ Follow the structured learning path in [`ROADMAP.md`](./ROADMAP.md), or jump dir
 | I want to learn...                        | Start here                                                                                       |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | How the browser renders a page            | [`browser-internals/01-rendering-pipeline.md`](./browser-internals/01-rendering-pipeline.md)     |
-| JavaScript closures and scope             | [`javascript-core/05-closures.md`](./javascript-core/05-closures.md)                             |
-| The event loop (Promise/setTimeout order) | [`javascript-core/03-event-loop.md`](./javascript-core/03-event-loop.md)                         |
+| JavaScript closures and scope             | [`javascript-core/18-closures.md`](./javascript-core/18-closures.md)                             |
+| The event loop (Promise/setTimeout order) | [`javascript-core/16-event-loop.md`](./javascript-core/16-event-loop.md)                         |
 | Why my UI freezes                         | [`rendering/03-cooperative-scheduling.md`](./rendering/03-cooperative-scheduling.md)             |
 | Memory leaks                              | [`anti-patterns/05-memory-leaks.md`](./anti-patterns/05-memory-leaks.md)                         |
 | React hooks (useEffect, useMemo, etc.)    | [`interview/02-react-questions.md`](./interview/02-react-questions.md)                           |
@@ -283,7 +284,7 @@ sequenceDiagram
     Note over MaQ: Loop repeats
 ```
 
-> Full deep dive → [`javascript-core/03-event-loop.md`](./javascript-core/03-event-loop.md)
+> Full deep dive → [`javascript-core/16-event-loop.md`](./javascript-core/16-event-loop.md)
 
 ---
 
@@ -451,7 +452,7 @@ Inspired by the work of:
 
 <div align="center">
 
-**116 files · 22 sections · 3.7 MB of depth**
+**148 files · 23 sections · 4 MB of depth**
 
 _Built for engineers who want to understand the web deeply._
 
