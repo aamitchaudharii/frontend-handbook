@@ -508,6 +508,6 @@ function getUserDisplays(users) {
 
 ## 🔗 Related Topics
 
-- [`16-variables-and-data-types.md`](./16-variables-and-data-types.md) — var/let/const foundations
-- [`25-modules-and-bundling.md`](./25-modules-and-bundling.md) — ES modules syntax
-- [`26-iterators-and-generators.md`](./26-iterators-and-generators.md) — Symbol.iterator in depth
+- [`01-variables-and-data-types.md`](./01-variables-and-data-types.md) — var/let/const foundations
+- [`10-modules-and-bundling.md`](./10-modules-and-bundling.md) — ES modules syntax
+- [`11-iterators-and-generators.md`](./11-iterators-and-generators.md) — Symbol.iterator in depth

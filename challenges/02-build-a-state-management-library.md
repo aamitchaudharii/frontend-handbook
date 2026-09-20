@@ -458,7 +458,7 @@ await toggleLike("post-1"); // UI updates instantly; rolls back if server call f
 
 - [`system-design/04-state-management-design.md`](../system-design/04-state-management-design.md)
 - [`patterns/02-custom-hooks.md`](../patterns/02-custom-hooks.md)
-- [`javascript-core/12-design-patterns.md`](../javascript-core/12-design-patterns.md)
+- [`javascript-core/25-observer-patterns.md`](../javascript-core/25-observer-patterns.md) — Observer pattern fundamentals
 
 ---
 

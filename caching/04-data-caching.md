@@ -1142,7 +1142,7 @@ const updateAvatar = useMutation({
 - [`caching/01-http-caching.md`](./01-http-caching.md) — HTTP layer caching
 - [`system-design/04-state-management-design.md`](../system-design/04-state-management-design.md) — Server vs client state distinction
 - [`caching/05-cdn-strategies.md`](./05-cdn-strategies.md) — CDN as a data cache layer
-- [`javascript-core/13-service-workers.md`](../javascript-core/13-service-workers.md) — Service Workers for offline data
+- [`javascript-core/24-service-workers.md`](../javascript-core/24-service-workers.md) — Service Workers for offline data
 
 ---
 

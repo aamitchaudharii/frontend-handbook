@@ -1320,7 +1320,7 @@ function initTableOfContents() {
 
 ## 🔗 Related Topics
 
-- [`javascript-core/14-observer-patterns.md`](../javascript-core/14-observer-patterns.md) — Observer pattern fundamentals
+- [`javascript-core/25-observer-patterns.md`](../javascript-core/25-observer-patterns.md) — Observer pattern fundamentals
 - [`performance/02-virtualization-windowing.md`](./02-virtualization-windowing.md) — IntersectionObserver for virtual scrolling
 - [`performance/04-raf-optimization.md`](./04-raf-optimization.md) — Pausing animations for off-screen elements
 - [`browser-internals/08-critical-rendering-path.md`](../browser-internals/08-critical-rendering-path.md) — Lazy loading to improve CRP

@@ -964,15 +964,15 @@ Answer these questions:
 
 ## 🔗 Related Topics
 
-- [`javascript-core/01-execution-context.md`](./01-execution-context.md) — What's inside each stack frame
-- [`javascript-core/03-event-loop.md`](./03-event-loop.md) — How the call stack interacts with async queues
-- [`javascript-core/05-closures.md`](./05-closures.md) — How stack frames relate to closures
+- [`javascript-core/12-execution-context.md`](./12-execution-context.md) — What's inside each stack frame
+- [`javascript-core/14-event-loop.md`](./14-event-loop.md) — How the call stack interacts with async queues
+- [`javascript-core/16-closures.md`](./16-closures.md) — How stack frames relate to closures
 - [`debugging/01-performance-tab.md`](../debugging/01-performance-tab.md) — Reading flame graphs (visual call stacks)
 
 ---
 
 <div align="center">
 
-**Next:** [`javascript-core/04-microtask-vs-macrotask.md`](./04-microtask-vs-macrotask.md) →
+**Next:** [`javascript-core/15-microtask-vs-macrotask.md`](./15-microtask-vs-macrotask.md) →
 
 </div>

@@ -79,7 +79,7 @@ The single-thread model explains why:
   ✦ Web Workers exist — they're the ONLY way to truly parallelize JS
 ```
 
-`→ Deep dive:` [`javascript-core/03-event-loop.md`](../javascript-core/03-event-loop.md)
+`→ Deep dive:` [`javascript-core/14-event-loop.md`](../javascript-core/14-event-loop.md)
 
 ---
 
@@ -146,7 +146,7 @@ Apply it whenever:
 - You add event listeners, timers, or subscriptions
 - You cache data in module scope
 
-`→ Deep dive:` [`javascript-core/08-memory-management.md`](../javascript-core/08-memory-management.md)
+`→ Deep dive:` [`javascript-core/19-memory-management.md`](../javascript-core/19-memory-management.md)
 
 ---
 
@@ -281,7 +281,7 @@ Apply it when:
 - You're debugging why a function works "before" it's defined
 - You're understanding why `let` throws but `var` returns `undefined`
 
-`→ Deep dive:` [`javascript-core/01-execution-context.md`](../javascript-core/01-execution-context.md)
+`→ Deep dive:` [`javascript-core/12-execution-context.md`](../javascript-core/12-execution-context.md)
 
 ---
 
@@ -353,7 +353,7 @@ When debugging a `this` issue, ask yourself:
 1. _Where is this function defined?_ → determines scope (closures, variables)
 2. _How is this function called?_ → determines `this`
 
-`→ Deep dive:` [`javascript-core/01-execution-context.md`](../javascript-core/01-execution-context.md)
+`→ Deep dive:` [`javascript-core/12-execution-context.md`](../javascript-core/12-execution-context.md)
 
 ---
 
@@ -484,7 +484,7 @@ Apply it when:
 - Deciding where in an object hierarchy to put a method
 - Wondering why `Object.prototype.toString` is available on every object
 
-`→ Deep dive:` [`javascript-core/06-prototypes.md`](../javascript-core/06-prototypes.md)
+`→ Deep dive:` [`javascript-core/17-prototypes.md`](../javascript-core/17-prototypes.md)
 
 ---
 

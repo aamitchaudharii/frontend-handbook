@@ -1057,7 +1057,7 @@ controller.abort();
 - [`rendering/01-dom-batching.md`](./01-dom-batching.md) — Batching DOM operations
 - [`rendering/02-virtual-dom.md`](./02-virtual-dom.md) — React Fiber's cooperative rendering
 - [`performance/04-raf-optimization.md`](../performance/04-raf-optimization.md) — rAF in the scheduling pipeline
-- [`javascript-core/12-web-workers.md`](../javascript-core/12-web-workers.md) — Workers for off-thread computation
+- [`javascript-core/23-web-workers.md`](../javascript-core/23-web-workers.md) — Workers for off-thread computation
 - [`performance/12-large-data-rendering.md`](../performance/12-large-data-rendering.md) — Chunked processing in practice
 
 ---

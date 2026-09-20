@@ -638,7 +638,7 @@ function Timer() {
 ## 🔗 Related Topics
 
 - [`rendering/02-virtual-dom.md`](../rendering/02-virtual-dom.md)
-- [`javascript-core/01-execution-context.md`](../javascript-core/01-execution-context.md)
+- [`javascript-core/12-execution-context.md`](../javascript-core/12-execution-context.md)
 - [`patterns/02-custom-hooks.md`](../patterns/02-custom-hooks.md)
 - [`anti-patterns/04-stale-closures.md`](../anti-patterns/04-stale-closures.md)
 

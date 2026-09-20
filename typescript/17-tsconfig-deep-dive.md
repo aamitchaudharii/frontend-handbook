@@ -599,5 +599,5 @@ import { Button } from "@components/Button";
 
 - [`01-typescript-basics.md`](./01-typescript-basics.md) — tsconfig quick start
 - [`14-declaration-files.md`](./14-declaration-files.md) — `declaration`, `typeRoots`, `types`
-- [`javascript-core/25-modules-and-bundling.md`](../javascript-core/25-modules-and-bundling.md) — Module systems context
+- [`javascript-core/10-modules-and-bundling.md`](../javascript-core/10-modules-and-bundling.md) — Module systems context
 - [`projects/11-component-library.md`](../projects/11-component-library.md) — Library tsconfig setup

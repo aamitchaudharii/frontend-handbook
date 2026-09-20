@@ -1671,9 +1671,9 @@ state.todos[1].done = true;
 
 ## 🔗 Related Topics
 
-- [`javascript-core/15-pub-sub-systems.md`](./15-pub-sub-systems.md) — Pub/Sub architecture patterns
-- [`javascript-core/05-closures.md`](./05-closures.md) — Closures in observer callbacks
-- [`javascript-core/08-memory-management.md`](./08-memory-management.md) — Observer memory leaks
+- [`javascript-core/26-pub-sub-systems.md`](./26-pub-sub-systems.md) — Pub/Sub architecture patterns
+- [`javascript-core/16-closures.md`](./16-closures.md) — Closures in observer callbacks
+- [`javascript-core/19-memory-management.md`](./19-memory-management.md) — Observer memory leaks
 - [`patterns/01-observer.md`](../patterns/01-observer.md) — Observer design pattern catalog entry
 - [`performance/09-intersection-observer.md`](../performance/09-intersection-observer.md) — IntersectionObserver for performance
 
@@ -1681,6 +1681,6 @@ state.todos[1].done = true;
 
 <div align="center">
 
-**Next:** [`javascript-core/15-pub-sub-systems.md`](./15-pub-sub-systems.md) →
+**Next:** [`javascript-core/26-pub-sub-systems.md`](./26-pub-sub-systems.md) →
 
 </div>

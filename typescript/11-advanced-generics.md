@@ -440,4 +440,4 @@ type R = AwaitAll<[Promise<string>, Promise<number>, Promise<boolean>]>;
 
 - [`12-mapped-and-conditional-types.md`](./12-mapped-and-conditional-types.md) — Mapped types using these patterns
 - [`08-utility-types.md`](./08-utility-types.md) — Built-in types built with these techniques
-- [`javascript-core/26-iterators-and-generators.md`](../javascript-core/26-iterators-and-generators.md) — Iterator types
+- [`javascript-core/11-iterators-and-generators.md`](../javascript-core/11-iterators-and-generators.md) — Iterator types

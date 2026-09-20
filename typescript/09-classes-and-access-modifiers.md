@@ -660,4 +660,4 @@ await repo.findOrFail("2"); // throws
 
 - [`07-generics.md`](./07-generics.md) — Generic classes and mixins
 - [`03-interfaces-and-type-aliases.md`](./03-interfaces-and-type-aliases.md) — implements interface
-- [`javascript-core/06-prototypes.md`](../javascript-core/06-prototypes.md) — How JS classes work under the hood
+- [`javascript-core/17-prototypes.md`](../javascript-core/17-prototypes.md) — How JS classes work under the hood

@@ -455,6 +455,6 @@ import { formatDate } from "./utils.js";
 
 ## 🔗 Related Topics
 
-- [`12-web-workers.md`](./12-web-workers.md) — Using dynamic import inside workers
-- [`24-es6-modern-syntax.md`](./24-es6-modern-syntax.md) — ES6 features modules build on
+- [`23-web-workers.md`](./23-web-workers.md) — Using dynamic import inside workers
+- [`09-es6-modern-syntax.md`](./09-es6-modern-syntax.md) — ES6 features modules build on
 - [`performance/08-bundle-optimization.md`](../performance/08-bundle-optimization.md) — Bundle size optimization strategies

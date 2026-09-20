@@ -842,7 +842,7 @@ const chunk = (arr, n) =>
 
 ## 🔗 Related Topics
 
-- [`javascript-core/04-closures.md`](../javascript-core/04-closures.md)
-- [`javascript-core/10-async-patterns.md`](../javascript-core/10-async-patterns.md)
-- [`javascript-core/11-promise-internals.md`](../javascript-core/11-promise-internals.md)
+- [`javascript-core/16-closures.md`](../javascript-core/16-closures.md)
+- [`javascript-core/21-async-patterns.md`](../javascript-core/21-async-patterns.md)
+- [`javascript-core/22-promise-internals.md`](../javascript-core/22-promise-internals.md)
 - [`exercises/02-react-exercises.md`](./02-react-exercises.md)

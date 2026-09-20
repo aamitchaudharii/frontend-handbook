@@ -1113,7 +1113,7 @@ function selectOption(value) {
 
 - [`performance/01-dom-optimization.md`](./01-dom-optimization.md) — DOM fundamentals including listener cost
 - [`browser-internals/02-dom-tree-creation.md`](../browser-internals/02-dom-tree-creation.md) — DOM structure and event model
-- [`javascript-core/14-observer-patterns.md`](../javascript-core/14-observer-patterns.md) — Observer pattern vs delegation
+- [`javascript-core/25-observer-patterns.md`](../javascript-core/25-observer-patterns.md) — Observer pattern vs delegation
 - [`performance/02-virtualization-windowing.md`](./02-virtualization-windowing.md) — Delegation in virtualized lists
 
 ---

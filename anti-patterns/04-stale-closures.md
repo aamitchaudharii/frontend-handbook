@@ -812,7 +812,7 @@ function ChatRoom({ roomId, username }) {
 
 ## 🔗 Related Topics
 
-- [`javascript-core/04-closures.md`](../javascript-core/04-closures.md) — Closures fundamentals
+- [`javascript-core/16-closures.md`](../javascript-core/16-closures.md) — Closures fundamentals
 - [`anti-patterns/03-premature-optimization.md`](./03-premature-optimization.md) — useCallback/useMemo pitfalls
 - [`patterns/02-custom-hooks.md`](../patterns/02-custom-hooks.md) — Hook design that avoids stale closures
 

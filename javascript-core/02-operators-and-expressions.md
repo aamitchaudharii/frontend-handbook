@@ -366,5 +366,5 @@ console.log(null?.name ?? "unknown"); // "unknown" (undefined triggers ??)
 
 ## 🔗 Related Topics
 
-- [`16-variables-and-data-types.md`](./16-variables-and-data-types.md) — Type coercion affects operator behavior
-- [`18-control-flow.md`](./18-control-flow.md) — Using operators in conditions
+- [`01-variables-and-data-types.md`](./01-variables-and-data-types.md) — Type coercion affects operator behavior
+- [`03-control-flow.md`](./03-control-flow.md) — Using operators in conditions

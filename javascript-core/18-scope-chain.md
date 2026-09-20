@@ -1267,15 +1267,15 @@ featureFlags.listeners; // undefined
 
 ## 🔗 Related Topics
 
-- [`javascript-core/01-execution-context.md`](./01-execution-context.md) — Lexical environments in detail
-- [`javascript-core/05-closures.md`](./05-closures.md) — Closures and the scope chain in action
-- [`javascript-core/06-prototypes.md`](./06-prototypes.md) — Prototype chain vs scope chain
-- [`javascript-core/08-memory-management.md`](./08-memory-management.md) — How scope affects memory retention
+- [`javascript-core/12-execution-context.md`](./12-execution-context.md) — Lexical environments in detail
+- [`javascript-core/16-closures.md`](./16-closures.md) — Closures and the scope chain in action
+- [`javascript-core/17-prototypes.md`](./17-prototypes.md) — Prototype chain vs scope chain
+- [`javascript-core/19-memory-management.md`](./19-memory-management.md) — How scope affects memory retention
 
 ---
 
 <div align="center">
 
-**Next:** [`javascript-core/08-memory-management.md`](./08-memory-management.md) →
+**Next:** [`javascript-core/19-memory-management.md`](./19-memory-management.md) →
 
 </div>

@@ -71,7 +71,7 @@ frontend-engineering-handbook/
 │   ├── glossary.md                        ← 100+ term glossary
 │   └── mental-models.md                   ← How senior engineers think
 │
-├── javascript-core/                       ← JS engine internals (15 files)
+├── javascript-core/                       ← JS engine internals (28 files)
 │   ├── 01-variables-and-data-types.md
 │   ├── 02-operators-and-expressions.md
 │   ├── 03-control-flow.md
@@ -83,23 +83,23 @@ frontend-engineering-handbook/
 │   ├── 09-es6-modern-syntax.md
 │   ├── 10-modules-and-bundling.md
 │   ├── 11-iterators-and-generators.md
-│   ├── 12-proxy-reflect-and-metaprogramming.md
-│   ├── 13-typed-arrays-and-binary-data.md
-│   ├── 14-execution-context.md
-│   ├── 15-call-stack.md
-│   ├── 16-event-loop.md
-│   ├── 17-microtask-vs-macrotask.md
-│   ├── 18-closures.md
-│   ├── 19-prototypes.md
-│   ├── 20-scope-chain.md
-│   ├── 21-memory-management.md
-│   ├── 22-garbage-collection.md
-│   ├── 23-async-patterns.md
-│   ├── 24-promise-internals.md
-│   ├── 25-web-workers.md
-│   ├── 26-service-workers.md
-│   ├── 27-observer-patterns.md
-│   └── 28-pub-sub-systems.md
+│   ├── 12-execution-context.md
+│   ├── 13-call-stack.md
+│   ├── 14-event-loop.md
+│   ├── 15-microtask-vs-macrotask.md
+│   ├── 16-closures.md
+│   ├── 17-prototypes.md
+│   ├── 18-scope-chain.md
+│   ├── 19-memory-management.md
+│   ├── 20-garbage-collection.md
+│   ├── 21-async-patterns.md
+│   ├── 22-promise-internals.md
+│   ├── 23-web-workers.md
+│   ├── 24-service-workers.md
+│   ├── 25-observer-patterns.md
+│   ├── 26-pub-sub-systems.md
+│   ├── 27-proxy-reflect-and-metaprogramming.md
+│   └── 28-typed-arrays-and-binary-data.md
 │
 ├── browser-internals/                     ← How browsers actually work (10 files)
 │   ├── 01-rendering-pipeline.md
@@ -245,8 +245,8 @@ Follow the structured learning path in [`ROADMAP.md`](./ROADMAP.md), or jump dir
 | I want to learn...                        | Start here                                                                                       |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | How the browser renders a page            | [`browser-internals/01-rendering-pipeline.md`](./browser-internals/01-rendering-pipeline.md)     |
-| JavaScript closures and scope             | [`javascript-core/18-closures.md`](./javascript-core/18-closures.md)                             |
-| The event loop (Promise/setTimeout order) | [`javascript-core/16-event-loop.md`](./javascript-core/16-event-loop.md)                         |
+| JavaScript closures and scope             | [`javascript-core/16-closures.md`](./javascript-core/16-closures.md)                             |
+| The event loop (Promise/setTimeout order) | [`javascript-core/14-event-loop.md`](./javascript-core/14-event-loop.md)                         |
 | Why my UI freezes                         | [`rendering/03-cooperative-scheduling.md`](./rendering/03-cooperative-scheduling.md)             |
 | Memory leaks                              | [`anti-patterns/05-memory-leaks.md`](./anti-patterns/05-memory-leaks.md)                         |
 | React hooks (useEffect, useMemo, etc.)    | [`interview/02-react-questions.md`](./interview/02-react-questions.md)                           |
@@ -284,7 +284,7 @@ sequenceDiagram
     Note over MaQ: Loop repeats
 ```
 
-> Full deep dive → [`javascript-core/16-event-loop.md`](./javascript-core/16-event-loop.md)
+> Full deep dive → [`javascript-core/14-event-loop.md`](./javascript-core/14-event-loop.md)
 
 ---
 

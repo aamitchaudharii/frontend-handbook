@@ -1297,7 +1297,7 @@ RESULT:
 ## 🔗 Related Topics
 
 - [`performance/02-virtualization-windowing.md`](./02-virtualization-windowing.md) — Virtual scroll implementation
-- [`javascript-core/12-web-workers.md`](../javascript-core/12-web-workers.md) — Web Worker patterns
+- [`javascript-core/23-web-workers.md`](../javascript-core/23-web-workers.md) — Web Worker patterns
 - [`performance/10-canvas-optimization.md`](./10-canvas-optimization.md) — Canvas rendering for large datasets
 - [`performance/07-memoization.md`](./07-memoization.md) — Memoizing expensive computations
 - [`performance/04-raf-optimization.md`](./04-raf-optimization.md) — rAF batching for real-time updates

@@ -1821,16 +1821,16 @@ class DataFetcher {
 
 ## 🔗 Related Topics
 
-- [`javascript-core/03-event-loop.md`](./03-event-loop.md) — How async code is scheduled
-- [`javascript-core/04-microtask-vs-macrotask.md`](./04-microtask-vs-macrotask.md) — Promise vs setTimeout timing
-- [`javascript-core/11-promise-internals.md`](./11-promise-internals.md) — How Promises work internally
-- [`javascript-core/12-web-workers.md`](./12-web-workers.md) — True parallelism for CPU-heavy tasks
+- [`javascript-core/14-event-loop.md`](./14-event-loop.md) — How async code is scheduled
+- [`javascript-core/15-microtask-vs-macrotask.md`](./15-microtask-vs-macrotask.md) — Promise vs setTimeout timing
+- [`javascript-core/22-promise-internals.md`](./22-promise-internals.md) — How Promises work internally
+- [`javascript-core/23-web-workers.md`](./23-web-workers.md) — True parallelism for CPU-heavy tasks
 - [`networking/03-request-batching.md`](../networking/03-request-batching.md) — Batching network requests
 
 ---
 
 <div align="center">
 
-**Next:** [`javascript-core/11-promise-internals.md`](./11-promise-internals.md) →
+**Next:** [`javascript-core/22-promise-internals.md`](./22-promise-internals.md) →
 
 </div>

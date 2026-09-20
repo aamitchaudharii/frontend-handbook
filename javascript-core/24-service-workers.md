@@ -1557,7 +1557,7 @@ async function syncPendingFeedback() {
 
 ## 🔗 Related Topics
 
-- [`javascript-core/12-web-workers.md`](./12-web-workers.md) — Dedicated and Shared Workers
+- [`javascript-core/23-web-workers.md`](./23-web-workers.md) — Dedicated and Shared Workers
 - [`caching/02-service-worker-cache.md`](../caching/02-service-worker-cache.md) — Advanced caching patterns
 - [`networking/04-prefetching-preloading.md`](../networking/04-prefetching-preloading.md) — Prefetching with SW
 - [`browser-internals/09-browser-caching.md`](../browser-internals/09-browser-caching.md) — HTTP caching vs SW caching
@@ -1566,6 +1566,6 @@ async function syncPendingFeedback() {
 
 <div align="center">
 
-**Next:** [`javascript-core/14-observer-patterns.md`](./14-observer-patterns.md) →
+**Next:** [`javascript-core/25-observer-patterns.md`](./25-observer-patterns.md) →
 
 </div>

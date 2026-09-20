@@ -994,8 +994,8 @@ class TaskScheduler {
 
 ## 🔗 Related Topics
 
-- [`04-microtask-vs-macrotask.md`](./04-microtask-vs-macrotask.md) — Exhaustive queue comparison
-- [`12-web-workers.md`](./12-web-workers.md) — True parallelism in the browser
+- [`15-microtask-vs-macrotask.md`](./15-microtask-vs-macrotask.md) — Exhaustive queue comparison
+- [`23-web-workers.md`](./23-web-workers.md) — True parallelism in the browser
 - [`rendering/03-cooperative-scheduling.md`](../rendering/03-cooperative-scheduling.md) — Chunking + scheduling patterns
 - [`rendering/05-ui-freezing-solutions.md`](../rendering/05-ui-freezing-solutions.md) — Fixing frozen UIs
 - [`debugging/01-performance-tab.md`](../debugging/01-performance-tab.md) — Visualizing the event loop with DevTools
@@ -1004,6 +1004,6 @@ class TaskScheduler {
 
 <div align="center">
 
-**Next:** [`04-microtask-vs-macrotask.md`](./04-microtask-vs-macrotask.md) →
+**Next:** [`15-microtask-vs-macrotask.md`](./15-microtask-vs-macrotask.md) →
 
 </div>

@@ -549,6 +549,6 @@ state.count = 2; // "count: 1 → 2"
 
 ## 🔗 Related Topics
 
-- [`24-es6-modern-syntax.md`](./24-es6-modern-syntax.md) — Symbols (Symbol.toPrimitive, Symbol.iterator)
-- [`21-objects-and-destructuring.md`](./21-objects-and-destructuring.md) — Property descriptors
-- [`09-garbage-collection.md`](./09-garbage-collection.md) — WeakMap for proxy caches
+- [`09-es6-modern-syntax.md`](./09-es6-modern-syntax.md) — Symbols (Symbol.toPrimitive, Symbol.iterator)
+- [`06-objects-and-destructuring.md`](./06-objects-and-destructuring.md) — Property descriptors
+- [`20-garbage-collection.md`](./20-garbage-collection.md) — WeakMap for proxy caches

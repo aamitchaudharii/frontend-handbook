@@ -1183,15 +1183,15 @@ console.log(cartB.items); // ['Phone'] ✓
 
 ## 🔗 Related Topics
 
-- [`javascript-core/01-execution-context.md`](./01-execution-context.md) — `this` binding in constructors
-- [`javascript-core/05-closures.md`](./05-closures.md) — Closures vs prototype-based private state
-- [`javascript-core/07-scope-chain.md`](./07-scope-chain.md) — Scope chain vs prototype chain
+- [`javascript-core/12-execution-context.md`](./12-execution-context.md) — `this` binding in constructors
+- [`javascript-core/16-closures.md`](./16-closures.md) — Closures vs prototype-based private state
+- [`javascript-core/18-scope-chain.md`](./18-scope-chain.md) — Scope chain vs prototype chain
 - [`patterns/05-proxy-pattern.md`](../patterns/05-proxy-pattern.md) — Proxy wrapping prototypes
 
 ---
 
 <div align="center">
 
-**Next:** [`javascript-core/07-scope-chain.md`](./07-scope-chain.md) →
+**Next:** [`javascript-core/18-scope-chain.md`](./18-scope-chain.md) →
 
 </div>

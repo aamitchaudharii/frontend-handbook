@@ -524,6 +524,6 @@ const expanded = lazyFlatMap(count(), (n) => [n, n * n]);
 
 ## 🔗 Related Topics
 
-- [`24-es6-modern-syntax.md`](./24-es6-modern-syntax.md) — `for...of` and Symbols
-- [`11-promise-internals.md`](./11-promise-internals.md) — How async/await relates to generators
+- [`09-es6-modern-syntax.md`](./09-es6-modern-syntax.md) — `for...of` and Symbols
+- [`22-promise-internals.md`](./22-promise-internals.md) — How async/await relates to generators
 - [`28-typed-arrays-and-binary-data.md`](./28-typed-arrays-and-binary-data.md) — TypedArrays are iterables

@@ -1205,7 +1205,7 @@ Clean structure:
 - [`system-design/01-large-scale-architecture.md`](./01-large-scale-architecture.md) — Architectural principles
 - [`system-design/03-micro-frontends.md`](./03-micro-frontends.md) — Feature isolation taken further
 - [`system-design/04-state-management-design.md`](./04-state-management-design.md) — State per feature
-- [`javascript-core/15-pub-sub-systems.md`](../javascript-core/15-pub-sub-systems.md) — Event bus for cross-feature communication
+- [`javascript-core/26-pub-sub-systems.md`](../javascript-core/26-pub-sub-systems.md) — Event bus for cross-feature communication
 
 ---
 

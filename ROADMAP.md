@@ -115,37 +115,37 @@ flowchart LR
 
 | Day | Topic             | File                                                                                    | Exercise                                                  |
 | --- | ----------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| 1   | Execution Context | [`javascript-core/14-execution-context.md`](../javascript-core/14-execution-context.md) | Draw the execution context stack for a given code snippet |
-| 2   | Call Stack        | [`javascript-core/15-call-stack.md`](../javascript-core/15-call-stack.md)               | Trace a recursive function's stack frames                 |
-| 3   | Scope Chain       | [`javascript-core/20-scope-chain.md`](../javascript-core/20-scope-chain.md)             | Predict output of 5 scope chain puzzles                   |
-| 4   | Closures          | [`javascript-core/18-closures.md`](../javascript-core/18-closures.md)                   | Build a module pattern using closures                     |
-| 5   | Prototypes        | [`javascript-core/19-prototypes.md`](../javascript-core/19-prototypes.md)               | Implement inheritance without `class` keyword             |
+| 1   | Execution Context | [`javascript-core/12-execution-context.md`](../javascript-core/12-execution-context.md) | Draw the execution context stack for a given code snippet |
+| 2   | Call Stack        | [`javascript-core/13-call-stack.md`](../javascript-core/13-call-stack.md)               | Trace a recursive function's stack frames                 |
+| 3   | Scope Chain       | [`javascript-core/18-scope-chain.md`](../javascript-core/18-scope-chain.md)             | Predict output of 5 scope chain puzzles                   |
+| 4   | Closures          | [`javascript-core/16-closures.md`](../javascript-core/16-closures.md)                   | Build a module pattern using closures                     |
+| 5   | Prototypes        | [`javascript-core/17-prototypes.md`](../javascript-core/17-prototypes.md)               | Implement inheritance without `class` keyword             |
 
 ### Week 2 — Concurrency Model
 
 | Day | Topic                  | File                                                                                              | Exercise                                               |
 | --- | ---------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| 1–2 | Event Loop (deep)      | [`javascript-core/16-event-loop.md`](../javascript-core/16-event-loop.md)                         | Predict output of 10 event loop puzzles                |
-| 3   | Microtask vs Macrotask | [`javascript-core/17-microtask-vs-macrotask.md`](../javascript-core/17-microtask-vs-macrotask.md) | Trace execution order of mixed Promise/setTimeout code |
-| 4–5 | Async Patterns         | [`javascript-core/23-async-patterns.md`](../javascript-core/23-async-patterns.md)                 | Implement a rate limiter using async patterns          |
+| 1–2 | Event Loop (deep)      | [`javascript-core/14-event-loop.md`](../javascript-core/14-event-loop.md)                         | Predict output of 10 event loop puzzles                |
+| 3   | Microtask vs Macrotask | [`javascript-core/15-microtask-vs-macrotask.md`](../javascript-core/15-microtask-vs-macrotask.md) | Trace execution order of mixed Promise/setTimeout code |
+| 4–5 | Async Patterns         | [`javascript-core/21-async-patterns.md`](../javascript-core/21-async-patterns.md)                 | Implement a rate limiter using async patterns          |
 
 ### Week 3 — Memory & Engine
 
 | Day | Topic                   | File                                                                                      | Exercise                                      |
 | --- | ----------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------- |
-| 1–2 | Memory Management       | [`javascript-core/21-memory-management.md`](../javascript-core/21-memory-management.md)   | Find 3 memory leaks in provided code samples  |
-| 3   | Garbage Collection      | [`javascript-core/22-garbage-collection.md`](../javascript-core/22-garbage-collection.md) | Profile memory in DevTools on a provided demo |
-| 4   | Promise Internals       | [`javascript-core/24-promise-internals.md`](../javascript-core/24-promise-internals.md)   | Implement a basic Promise from scratch        |
-| 5   | Deep clone optimization | [`javascript-core/23-async-patterns.md`](../javascript-core/23-async-patterns.md)         | Benchmark 4 deep clone strategies             |
+| 1–2 | Memory Management       | [`javascript-core/19-memory-management.md`](../javascript-core/19-memory-management.md)   | Find 3 memory leaks in provided code samples  |
+| 3   | Garbage Collection      | [`javascript-core/20-garbage-collection.md`](../javascript-core/20-garbage-collection.md) | Profile memory in DevTools on a provided demo |
+| 4   | Promise Internals       | [`javascript-core/22-promise-internals.md`](../javascript-core/22-promise-internals.md)   | Implement a basic Promise from scratch        |
+| 5   | Deep clone optimization | [`javascript-core/21-async-patterns.md`](../javascript-core/21-async-patterns.md)         | Benchmark 4 deep clone strategies             |
 
 ### Week 4 — Workers & Patterns
 
 | Day | Topic             | File                                                                                    | Exercise                                |
 | --- | ----------------- | --------------------------------------------------------------------------------------- | --------------------------------------- |
-| 1–2 | Web Workers       | [`javascript-core/25-web-workers.md`](../javascript-core/25-web-workers.md)             | Offload a heavy computation to a Worker |
-| 3   | Service Workers   | [`javascript-core/26-service-workers.md`](../javascript-core/26-service-workers.md)     | Build an offline-capable page           |
-| 4   | Observer Patterns | [`javascript-core/27-observer-patterns.md`](../javascript-core/27-observer-patterns.md) | Build a reactive data binding system    |
-| 5   | Pub-Sub Systems   | [`javascript-core/28-pub-sub-systems.md`](../javascript-core/28-pub-sub-systems.md)     | Build a typed event bus                 |
+| 1–2 | Web Workers       | [`javascript-core/23-web-workers.md`](../javascript-core/23-web-workers.md)             | Offload a heavy computation to a Worker |
+| 3   | Service Workers   | [`javascript-core/24-service-workers.md`](../javascript-core/24-service-workers.md)     | Build an offline-capable page           |
+| 4   | Observer Patterns | [`javascript-core/25-observer-patterns.md`](../javascript-core/25-observer-patterns.md) | Build a reactive data binding system    |
+| 5   | Pub-Sub Systems   | [`javascript-core/26-pub-sub-systems.md`](../javascript-core/26-pub-sub-systems.md)     | Build a typed event bus                 |
 
 ### ✅ Phase 1 Completion Checklist
 
@@ -466,7 +466,7 @@ Learning deeply requires revisiting concepts. Suggested review schedule:
 
 ### 🔥 Must-Read (Start Here)
 
-1. [`javascript-core/16-event-loop.md`](../javascript-core/16-event-loop.md)
+1. [`javascript-core/14-event-loop.md`](../javascript-core/14-event-loop.md)
 2. [`browser-internals/01-rendering-pipeline.md`](../browser-internals/01-rendering-pipeline.md)
 3. [`performance/03-layout-thrashing.md`](../performance/03-layout-thrashing.md)
 4. [`performance/05-memory-leaks.md`](../performance/05-memory-leaks.md)
@@ -475,7 +475,7 @@ Learning deeply requires revisiting concepts. Suggested review schedule:
 
 ### 📖 Deep Dives (After Foundations)
 
-7. [`javascript-core/24-promise-internals.md`](../javascript-core/24-promise-internals.md)
+7. [`javascript-core/22-promise-internals.md`](../javascript-core/22-promise-internals.md)
 8. [`browser-internals/06-composite-layers.md`](../browser-internals/06-composite-layers.md)
 9. [`performance/02-virtualization-windowing.md`](../performance/02-virtualization-windowing.md)
 10. [`system-design/03-micro-frontends.md`](../system-design/03-micro-frontends.md)
@@ -490,7 +490,7 @@ Learning deeply requires revisiting concepts. Suggested review schedule:
 
 <div align="center">
 
-**Ready to start?** → [`Phase 1: JavaScript Core Internals`](../javascript-core/14-execution-context.md)
+**Ready to start?** → [`Phase 1: JavaScript Core Internals`](../javascript-core/12-execution-context.md)
 
 _The roadmap is a guide, not a cage. Follow your curiosity, but always go deep._
 

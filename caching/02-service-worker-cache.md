@@ -1177,7 +1177,7 @@ self.addEventListener("activate", (event) => {
 
 ## 🔗 Related Topics
 
-- [`javascript-core/13-service-workers.md`](../javascript-core/13-service-workers.md) — Service Worker fundamentals
+- [`javascript-core/24-service-workers.md`](../javascript-core/24-service-workers.md) — Service Worker fundamentals
 - [`caching/01-http-caching.md`](./01-http-caching.md) — HTTP cache headers that complement SW cache
 - [`caching/03-memory-caching.md`](./03-memory-caching.md) — In-memory caching patterns
 - [`browser-internals/09-browser-caching.md`](../browser-internals/09-browser-caching.md) — Browser cache internals

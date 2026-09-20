@@ -432,4 +432,4 @@ const data = await retry(() => fetch("/api/data").then((r) => r.json()));
 
 - [`07-generics.md`](./07-generics.md) — Full generics coverage
 - [`08-utility-types.md`](./08-utility-types.md) — ReturnType, Parameters utility types
-- [`javascript-core/19-functions-fundamentals.md`](../javascript-core/19-functions-fundamentals.md) — JS function fundamentals
+- [`javascript-core/04-functions-fundamentals.md`](../javascript-core/04-functions-fundamentals.md) — JS function fundamentals

@@ -1229,15 +1229,15 @@ MyPromise.resolve(42)
 
 ## 🔗 Related Topics
 
-- [`javascript-core/03-event-loop.md`](./03-event-loop.md) — Microtask queue and the event loop
-- [`javascript-core/04-microtask-vs-macrotask.md`](./04-microtask-vs-macrotask.md) — When Promise handlers run
-- [`javascript-core/10-async-patterns.md`](./10-async-patterns.md) — Practical async patterns
-- [`javascript-core/12-web-workers.md`](./12-web-workers.md) — True parallelism beyond async
+- [`javascript-core/14-event-loop.md`](./14-event-loop.md) — Microtask queue and the event loop
+- [`javascript-core/15-microtask-vs-macrotask.md`](./15-microtask-vs-macrotask.md) — When Promise handlers run
+- [`javascript-core/21-async-patterns.md`](./21-async-patterns.md) — Practical async patterns
+- [`javascript-core/23-web-workers.md`](./23-web-workers.md) — True parallelism beyond async
 
 ---
 
 <div align="center">
 
-**Next:** [`javascript-core/12-web-workers.md`](./12-web-workers.md) →
+**Next:** [`javascript-core/23-web-workers.md`](./23-web-workers.md) →
 
 </div>

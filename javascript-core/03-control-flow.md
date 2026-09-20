@@ -410,6 +410,6 @@ function findFirstDuplicate(arr) {
 
 ## 🔗 Related Topics
 
-- [`17-operators-and-expressions.md`](./17-operators-and-expressions.md) — Operators used in conditions
-- [`19-functions-fundamentals.md`](./19-functions-fundamentals.md) — Early return patterns inside functions
-- [`20-arrays-and-iteration.md`](./20-arrays-and-iteration.md) — Higher-order iteration methods (map/filter/reduce)
+- [`02-operators-and-expressions.md`](./02-operators-and-expressions.md) — Operators used in conditions
+- [`04-functions-fundamentals.md`](./04-functions-fundamentals.md) — Early return patterns inside functions
+- [`05-arrays-and-iteration.md`](./05-arrays-and-iteration.md) — Higher-order iteration methods (map/filter/reduce)

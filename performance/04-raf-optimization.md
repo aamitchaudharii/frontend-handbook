@@ -1288,7 +1288,7 @@ function createAnimationScheduler() {
 ## 🔗 Related Topics
 
 - [`browser-internals/01-rendering-pipeline.md`](../browser-internals/01-rendering-pipeline.md) — Where rAF fits in the rendering pipeline
-- [`javascript-core/04-microtask-vs-macrotask.md`](../javascript-core/04-microtask-vs-macrotask.md) — rAF in the event loop
+- [`javascript-core/15-microtask-vs-macrotask.md`](../javascript-core/15-microtask-vs-macrotask.md) — rAF in the event loop
 - [`performance/10-canvas-optimization.md`](./10-canvas-optimization.md) — rAF for canvas animation
 - [`animations/03-compositor-animations.md`](../animations/03-compositor-animations.md) — CSS vs rAF animations
 - [`rendering/03-cooperative-scheduling.md`](../rendering/03-cooperative-scheduling.md) — Splitting work across frames

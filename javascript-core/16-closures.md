@@ -1294,9 +1294,9 @@ const cachedFetch = memoizeWithTTL(
 
 ## 🔗 Related Topics
 
-- [`javascript-core/01-execution-context.md`](./01-execution-context.md) — The execution context that closures reference
-- [`javascript-core/07-scope-chain.md`](./07-scope-chain.md) — How scope chain traversal works
-- [`javascript-core/08-memory-management.md`](./08-memory-management.md) — Memory implications of closures
+- [`javascript-core/12-execution-context.md`](./12-execution-context.md) — The execution context that closures reference
+- [`javascript-core/18-scope-chain.md`](./18-scope-chain.md) — How scope chain traversal works
+- [`javascript-core/19-memory-management.md`](./19-memory-management.md) — Memory implications of closures
 - [`performance/05-memory-leaks.md`](../performance/05-memory-leaks.md) — Closure-based memory leaks
 - [`patterns/01-observer.md`](../patterns/01-observer.md) — Observer pattern using closures
 
@@ -1304,6 +1304,6 @@ const cachedFetch = memoizeWithTTL(
 
 <div align="center">
 
-**Next:** [`javascript-core/06-prototypes.md`](./06-prototypes.md) →
+**Next:** [`javascript-core/17-prototypes.md`](./17-prototypes.md) →
 
 </div>

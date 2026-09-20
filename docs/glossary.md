@@ -19,7 +19,7 @@
 
 Google's JavaScript engine used in Chrome and Node.js. Parses, compiles (via JIT), and executes JavaScript. V8 is responsible for the **call stack**, **heap**, **garbage collection**, and **hidden classes**. It does NOT provide `setTimeout`, `fetch`, or DOM APIs — those come from the **host environment**.
 
-`→ See:` [`javascript-core/08-memory-management.md`](../javascript-core/08-memory-management.md)
+`→ See:` [`javascript-core/19-memory-management.md`](../javascript-core/19-memory-management.md)
 
 ---
 
@@ -33,7 +33,7 @@ A compilation strategy where code is compiled to machine code at runtime, not ah
 
 The environment created by the JavaScript engine each time code is run. Contains three components: the **Variable Environment** (stores `var` declarations and function declarations), the **Lexical Environment** (stores `let`/`const` and the outer scope reference), and the **ThisBinding** (what `this` refers to). Every function call creates a new execution context.
 
-`→ See:` [`javascript-core/01-execution-context.md`](../javascript-core/01-execution-context.md)
+`→ See:` [`javascript-core/12-execution-context.md`](../javascript-core/12-execution-context.md)
 
 ---
 
@@ -41,7 +41,7 @@ The environment created by the JavaScript engine each time code is run. Contains
 
 A **LIFO (Last In, First Out)** data structure that tracks the currently executing functions. Each function call pushes a **stack frame** onto the stack. When the function returns, its frame is popped. JavaScript is single-threaded — only the topmost frame executes at any time.
 
-`→ See:` [`javascript-core/02-call-stack.md`](../javascript-core/02-call-stack.md)
+`→ See:` [`javascript-core/13-call-stack.md`](../javascript-core/13-call-stack.md)
 
 ---
 
@@ -61,7 +61,7 @@ Error thrown when the **call stack** exceeds its size limit (typically ~10,000 f
 
 The region of memory where JavaScript objects, arrays, functions, and strings are allocated. Unlike the **stack**, heap memory is not automatically freed when a function returns — it's managed by the **garbage collector**.
 
-`→ See:` [`javascript-core/08-memory-management.md`](../javascript-core/08-memory-management.md)
+`→ See:` [`javascript-core/19-memory-management.md`](../javascript-core/19-memory-management.md)
 
 ---
 
@@ -69,7 +69,7 @@ The region of memory where JavaScript objects, arrays, functions, and strings ar
 
 V8's internal representation of an object's structure — which properties it has and in what order. Objects with the same hidden class share optimized compiled code. Adding properties in a different order than other instances of the same constructor creates a new hidden class, degrading performance.
 
-`→ See:` [`javascript-core/09-garbage-collection.md`](../javascript-core/09-garbage-collection.md)
+`→ See:` [`javascript-core/20-garbage-collection.md`](../javascript-core/20-garbage-collection.md)
 
 ---
 
@@ -85,7 +85,7 @@ When V8 reverts a function from optimized machine code back to slower interprete
 
 The mechanism that manages JavaScript's concurrency. Repeatedly checks: if the **call stack** is empty, dequeue one **macrotask**, run it, then drain the entire **microtask queue**, then allow a **rendering checkpoint**. This loop runs continuously as long as the page is alive.
 
-`→ See:` [`javascript-core/03-event-loop.md`](../javascript-core/03-event-loop.md)
+`→ See:` [`javascript-core/14-event-loop.md`](../javascript-core/14-event-loop.md)
 
 ---
 
@@ -93,7 +93,7 @@ The mechanism that manages JavaScript's concurrency. Repeatedly checks: if the *
 
 A unit of work processed by the **event loop** one at a time. The browser may render between macrotasks. Sources: `setTimeout`, `setInterval`, DOM event callbacks, `MessageChannel`, I/O callbacks. Contrast with **microtask**.
 
-`→ See:` [`javascript-core/04-microtask-vs-macrotask.md`](../javascript-core/04-microtask-vs-macrotask.md)
+`→ See:` [`javascript-core/15-microtask-vs-macrotask.md`](../javascript-core/15-microtask-vs-macrotask.md)
 
 ---
 
@@ -101,7 +101,7 @@ A unit of work processed by the **event loop** one at a time. The browser may re
 
 A high-priority deferred callback that runs immediately after the current **macrotask** completes — before any rendering or next macrotask. The entire microtask queue is drained before moving on. Sources: `Promise.then/catch/finally`, `queueMicrotask()`, `MutationObserver` callbacks, `async/await` continuations.
 
-`→ See:` [`javascript-core/04-microtask-vs-macrotask.md`](../javascript-core/04-microtask-vs-macrotask.md)
+`→ See:` [`javascript-core/15-microtask-vs-macrotask.md`](../javascript-core/15-microtask-vs-macrotask.md)
 
 ---
 
@@ -157,7 +157,7 @@ Any **macrotask** that takes more than 50ms to complete. Long tasks cause percep
 
 The period between the start of a **block scope** and the `let`/`const` declaration line. During the TDZ, the variable exists (it's been hoisted) but is not initialized. Accessing it throws `ReferenceError`. Prevents the silent `undefined` bugs caused by `var` hoisting.
 
-`→ See:` [`javascript-core/07-scope-chain.md`](../javascript-core/07-scope-chain.md)
+`→ See:` [`javascript-core/18-scope-chain.md`](../javascript-core/18-scope-chain.md)
 
 ---
 
@@ -165,7 +165,7 @@ The period between the start of a **block scope** and the `let`/`const` declarat
 
 The result of JavaScript's two-phase execution (creation phase + execution phase). During the creation phase, `var` declarations are registered and initialized to `undefined`, and `function` declarations are fully stored. `let`/`const` are hoisted into the **TDZ**. Code does not literally move — the environment record is populated before execution begins.
 
-`→ See:` [`javascript-core/01-execution-context.md`](../javascript-core/01-execution-context.md)
+`→ See:` [`javascript-core/12-execution-context.md`](../javascript-core/12-execution-context.md)
 
 ---
 
@@ -175,7 +175,7 @@ The result of JavaScript's two-phase execution (creation phase + execution phase
 
 A scoping model where a variable's scope is determined by where it appears in the source code, not where it's called at runtime. JavaScript uses lexical scope. A function's **scope chain** is fixed at definition time.
 
-`→ See:` [`javascript-core/07-scope-chain.md`](../javascript-core/07-scope-chain.md)
+`→ See:` [`javascript-core/18-scope-chain.md`](../javascript-core/18-scope-chain.md)
 
 ---
 
@@ -183,7 +183,7 @@ A scoping model where a variable's scope is determined by where it appears in th
 
 The linked list of **lexical environments** from the current scope outward to the global scope. Variable lookup walks this chain from inner to outer, returning the first match found.
 
-`→ See:` [`javascript-core/07-scope-chain.md`](../javascript-core/07-scope-chain.md)
+`→ See:` [`javascript-core/18-scope-chain.md`](../javascript-core/18-scope-chain.md)
 
 ---
 
@@ -191,7 +191,7 @@ The linked list of **lexical environments** from the current scope outward to th
 
 A function that retains access to its enclosing **lexical environment** even after the outer function has returned. The function holds a live reference (not a copy) to the environment record. Closures power private state, factory functions, memoization, and callbacks.
 
-`→ See:` [`javascript-core/05-closures.md`](../javascript-core/05-closures.md)
+`→ See:` [`javascript-core/16-closures.md`](../javascript-core/16-closures.md)
 
 ---
 
@@ -219,7 +219,7 @@ A function that is defined and called immediately: `(function() { ... })()`. Cre
 
 An object that another object **delegates** property lookups to when the property isn't found on the object itself. Every object has an internal `[[Prototype]]` slot (accessible via `Object.getPrototypeOf()`). Forms the **prototype chain**.
 
-`→ See:` [`javascript-core/06-prototypes.md`](../javascript-core/06-prototypes.md)
+`→ See:` [`javascript-core/17-prototypes.md`](../javascript-core/17-prototypes.md)
 
 ---
 
@@ -233,7 +233,7 @@ The chain of `[[Prototype]]` references from an object up through its ancestors 
 
 `[[Prototype]]` is the internal slot on every **object** that forms the prototype chain. `.prototype` is a regular property on **functions** — it becomes the `[[Prototype]]` of objects created with `new ThatFunction()`. These are different things.
 
-`→ See:` [`javascript-core/06-prototypes.md`](../javascript-core/06-prototypes.md)
+`→ See:` [`javascript-core/17-prototypes.md`](../javascript-core/17-prototypes.md)
 
 ---
 
@@ -261,7 +261,7 @@ Methods to check if a property is directly on an object (not inherited via **pro
 
 The automatic process of reclaiming memory from objects that are no longer **reachable** from any **GC root**. JavaScript uses a **mark-and-sweep** algorithm as its primary collection strategy.
 
-`→ See:` [`javascript-core/09-garbage-collection.md`](../javascript-core/09-garbage-collection.md)
+`→ See:` [`javascript-core/20-garbage-collection.md`](../javascript-core/20-garbage-collection.md)
 
 ---
 
@@ -331,7 +331,7 @@ A period during which JavaScript execution is stopped while the **garbage collec
 
 A design pattern that pre-allocates objects and reuses them instead of creating new ones. Reduces **allocation rate**, reduces GC pressure, and eliminates GC pauses in animation loops.
 
-`→ See:` [`javascript-core/09-garbage-collection.md`](../javascript-core/09-garbage-collection.md)
+`→ See:` [`javascript-core/20-garbage-collection.md`](../javascript-core/20-garbage-collection.md)
 
 ---
 
@@ -339,7 +339,7 @@ A design pattern that pre-allocates objects and reuses them instead of creating 
 
 Data structures that hold their keys **weakly** — if the key object is garbage collected, the entry is automatically removed. Unlike `Map`/`Set`, they don't prevent GC. Ideal for associating metadata with objects without causing leaks.
 
-`→ See:` [`javascript-core/08-memory-management.md`](../javascript-core/08-memory-management.md)
+`→ See:` [`javascript-core/19-memory-management.md`](../javascript-core/19-memory-management.md)
 
 ---
 
@@ -539,7 +539,7 @@ Attaching a single event listener to a parent element instead of individual list
 
 A technique that delays execution of a function until a specified time has passed since the last call. Useful for high-frequency events (search input, window resize) where only the final value matters.
 
-`→ See:` [`javascript-core/10-async-patterns.md`](../javascript-core/10-async-patterns.md)
+`→ See:` [`javascript-core/21-async-patterns.md`](../javascript-core/21-async-patterns.md)
 
 ---
 
@@ -623,7 +623,7 @@ A system where functionality can be extended at runtime by registering "plugins"
 
 A system that automatically propagates state changes to all interested dependents. When state changes, the UI (or any subscriber) updates automatically without manual notification. Vue's reactivity system, MobX, and RxJS are examples.
 
-`→ See:` [`javascript-core/14-observer-patterns.md`](../javascript-core/14-observer-patterns.md)
+`→ See:` [`javascript-core/25-observer-patterns.md`](../javascript-core/25-observer-patterns.md)
 
 ---
 
@@ -655,7 +655,7 @@ A software design pattern where components communicate by emitting and listening
 
 A JavaScript thread that runs in parallel with the main thread. Has its own heap, call stack, and event loop. Cannot access the DOM. Communicates with the main thread only via `postMessage`. Ideal for CPU-intensive work that would otherwise block the UI.
 
-`→ See:` [`javascript-core/12-web-workers.md`](../javascript-core/12-web-workers.md)
+`→ See:` [`javascript-core/23-web-workers.md`](../javascript-core/23-web-workers.md)
 
 ---
 
@@ -669,7 +669,7 @@ A Web Worker that can be accessed by multiple pages, tabs, or iframes from the s
 
 A scriptable network proxy that intercepts fetch requests, enables offline caching, and can receive push notifications even when the page is closed. Requires HTTPS. Core technology for Progressive Web Apps (PWA).
 
-`→ See:` [`javascript-core/13-service-workers.md`](../javascript-core/13-service-workers.md)
+`→ See:` [`javascript-core/24-service-workers.md`](../javascript-core/24-service-workers.md)
 
 ---
 
@@ -677,7 +677,7 @@ A scriptable network proxy that intercepts fetch requests, enables offline cachi
 
 A browser API that asynchronously notifies of changes to the DOM tree (node additions/removals, attribute changes, text changes). More efficient than polling. Callbacks are **microtasks**.
 
-`→ See:` [`javascript-core/14-observer-patterns.md`](../javascript-core/14-observer-patterns.md)
+`→ See:` [`javascript-core/25-observer-patterns.md`](../javascript-core/25-observer-patterns.md)
 
 ---
 
@@ -685,7 +685,7 @@ A browser API that asynchronously notifies of changes to the DOM tree (node addi
 
 A browser API that asynchronously observes changes in the intersection of an element with the viewport or a parent container. Used for lazy loading, infinite scroll, and sticky header detection. Replaces scroll-event-based visibility checks.
 
-`→ See:` [`javascript-core/14-observer-patterns.md`](../javascript-core/14-observer-patterns.md)
+`→ See:` [`javascript-core/25-observer-patterns.md`](../javascript-core/25-observer-patterns.md)
 
 ---
 
@@ -693,7 +693,7 @@ A browser API that asynchronously observes changes in the intersection of an ele
 
 A browser API that fires when an element's size changes. More efficient than window `resize` events for component-level responsiveness. Fires at the end of the rendering pipeline.
 
-`→ See:` [`javascript-core/14-observer-patterns.md`](../javascript-core/14-observer-patterns.md)
+`→ See:` [`javascript-core/25-observer-patterns.md`](../javascript-core/25-observer-patterns.md)
 
 ---
 
@@ -701,7 +701,7 @@ A browser API that fires when an element's size changes. More efficient than win
 
 A Web API for cancelling asynchronous operations. `controller.abort()` sends an abort signal to any operation listening to `controller.signal` — including `fetch` requests and `addEventListener` calls (via `{ signal }` option).
 
-`→ See:` [`javascript-core/10-async-patterns.md`](../javascript-core/10-async-patterns.md)
+`→ See:` [`javascript-core/21-async-patterns.md`](../javascript-core/21-async-patterns.md)
 
 ---
 
@@ -709,7 +709,7 @@ A Web API for cancelling asynchronous operations. `controller.abort()` sends an 
 
 The algorithm used by `postMessage` to deep-copy data sent between threads or contexts. Handles more types than JSON (Date, Map, Set, TypedArray, circular refs) but cannot copy functions or DOM nodes.
 
-`→ See:` [`javascript-core/12-web-workers.md`](../javascript-core/12-web-workers.md)
+`→ See:` [`javascript-core/23-web-workers.md`](../javascript-core/23-web-workers.md)
 
 ---
 
@@ -729,7 +729,7 @@ A fixed-length binary data buffer shared across threads. Unlike regular `ArrayBu
 
 A browser API for storing **Request → Response** pairs. Available in Service Workers and regular pages. Unlike HTTP cache (controlled by headers), the Cache API is fully programmable — you decide what to cache, how long to keep it, and when to invalidate.
 
-`→ See:` [`javascript-core/13-service-workers.md`](../javascript-core/13-service-workers.md)
+`→ See:` [`javascript-core/24-service-workers.md`](../javascript-core/24-service-workers.md)
 
 ---
 
@@ -751,7 +751,7 @@ A canvas element that can be used in a **Web Worker**, enabling complex 2D or We
 
 An object representing a value that will be available in the future. Has three states: **pending** (initial), **fulfilled** (resolved with a value), or **rejected** (failed with a reason). State transitions are one-way and permanent.
 
-`→ See:` [`javascript-core/11-promise-internals.md`](../javascript-core/11-promise-internals.md)
+`→ See:` [`javascript-core/22-promise-internals.md`](../javascript-core/22-promise-internals.md)
 
 ---
 
@@ -765,7 +765,7 @@ Any object or function with a `.then` method. The Promise resolution procedure t
 
 An internal V8/spec job created when a `.then()` handler returns a thenable. This job calls the thenable's `.then()` method, adding two extra **microtask** ticks to the chain compared to returning a plain value.
 
-`→ See:` [`javascript-core/11-promise-internals.md`](../javascript-core/11-promise-internals.md)
+`→ See:` [`javascript-core/22-promise-internals.md`](../javascript-core/22-promise-internals.md)
 
 ---
 
@@ -773,7 +773,7 @@ An internal V8/spec job created when a `.then()` handler returns a thenable. Thi
 
 Syntax sugar over Promises. An `async` function always returns a Promise. `await` suspends the async function and schedules the continuation as a **microtask** when the awaited Promise settles. Does not block the main thread.
 
-`→ See:` [`javascript-core/10-async-patterns.md`](../javascript-core/10-async-patterns.md)
+`→ See:` [`javascript-core/21-async-patterns.md`](../javascript-core/21-async-patterns.md)
 
 ---
 
@@ -795,7 +795,7 @@ The problem of a producer generating work faster than a consumer can process it.
 
 A behavioral design pattern where a **subject** maintains a list of **observers** and notifies them directly when its state changes. Subject holds direct references to observers. Compare with **Pub/Sub**.
 
-`→ See:` [`javascript-core/14-observer-patterns.md`](../javascript-core/14-observer-patterns.md)
+`→ See:` [`javascript-core/25-observer-patterns.md`](../javascript-core/25-observer-patterns.md)
 
 ---
 
@@ -803,7 +803,7 @@ A behavioral design pattern where a **subject** maintains a list of **observers*
 
 A messaging pattern with a central **event bus** between publishers and subscribers. Publishers emit events to the bus; subscribers register for channels on the bus. Neither knows about the other — fully decoupled.
 
-`→ See:` [`javascript-core/15-pub-sub-systems.md`](../javascript-core/15-pub-sub-systems.md)
+`→ See:` [`javascript-core/26-pub-sub-systems.md`](../javascript-core/26-pub-sub-systems.md)
 
 ---
 

@@ -1075,8 +1075,8 @@ Now: Count increment → App re-renders → handleDelete is same reference
 ## 🔗 Related Topics
 
 - [`performance/03-layout-thrashing.md`](./03-layout-thrashing.md) — What memoization helps avoid in rendering
-- [`javascript-core/09-garbage-collection.md`](../javascript-core/09-garbage-collection.md) — Cache memory and GC
-- [`javascript-core/05-closures.md`](../javascript-core/05-closures.md) — Closures in memoized functions
+- [`javascript-core/20-garbage-collection.md`](../javascript-core/20-garbage-collection.md) — Cache memory and GC
+- [`javascript-core/16-closures.md`](../javascript-core/16-closures.md) — Closures in memoized functions
 - [`patterns/03-command.md`](../patterns/03-command.md) — Command pattern with memoized selectors
 - [`system-design/04-state-management-design.md`](../system-design/04-state-management-design.md) — Selector memoization in state management
 

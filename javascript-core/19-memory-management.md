@@ -1300,15 +1300,15 @@ Expected results:
 
 ## 🔗 Related Topics
 
-- [`javascript-core/09-garbage-collection.md`](./09-garbage-collection.md) — GC algorithms in depth
+- [`javascript-core/20-garbage-collection.md`](./20-garbage-collection.md) — GC algorithms in depth
 - [`performance/05-memory-leaks.md`](../performance/05-memory-leaks.md) — Finding and fixing leaks
 - [`debugging/02-memory-tab.md`](../debugging/02-memory-tab.md) — DevTools Memory tab mastery
-- [`javascript-core/05-closures.md`](./05-closures.md) — How closures retain memory
+- [`javascript-core/16-closures.md`](./16-closures.md) — How closures retain memory
 
 ---
 
 <div align="center">
 
-**Next:** [`javascript-core/09-garbage-collection.md`](./09-garbage-collection.md) →
+**Next:** [`javascript-core/20-garbage-collection.md`](./20-garbage-collection.md) →
 
 </div>

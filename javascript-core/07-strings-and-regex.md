@@ -393,5 +393,5 @@ function parseQueryString(qs) {
 
 ## 🔗 Related Topics
 
-- [`16-variables-and-data-types.md`](./16-variables-and-data-types.md) — Strings as primitives
-- [`24-es6-modern-syntax.md`](./24-es6-modern-syntax.md) — Template literal tagged templates
+- [`01-variables-and-data-types.md`](./01-variables-and-data-types.md) — Strings as primitives
+- [`09-es6-modern-syntax.md`](./09-es6-modern-syntax.md) — Template literal tagged templates

@@ -1080,7 +1080,7 @@ carry data it doesn't use and creates coupling between all contexts.
 - [`architecture/02-clean-architecture.md`](./02-clean-architecture.md) — Clean Architecture and DDD complement each other
 - [`system-design/02-feature-based-structure.md`](../system-design/02-feature-based-structure.md) — Feature modules as bounded contexts
 - [`system-design/06-event-driven-frontend.md`](../system-design/06-event-driven-frontend.md) — Domain events in practice
-- [`javascript-core/14-observer-patterns.md`](../javascript-core/14-observer-patterns.md) — Observer pattern for domain events
+- [`javascript-core/25-observer-patterns.md`](../javascript-core/25-observer-patterns.md) — Observer pattern for domain events
 
 ---
 

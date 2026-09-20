@@ -1286,7 +1286,7 @@ const inventoryPlugin: AdminPlugin = {
 - [`system-design/06-event-driven-frontend.md`](./06-event-driven-frontend.md) — Events as plugin communication
 - [`system-design/05-config-driven-ui.md`](./05-config-driven-ui.md) — Config-driven UI for plugin settings
 - [`patterns/03-command.md`](../patterns/03-command.md) — Command pattern for plugin actions
-- [`javascript-core/14-observer-patterns.md`](../javascript-core/14-observer-patterns.md) — Observer pattern behind hooks
+- [`javascript-core/25-observer-patterns.md`](../javascript-core/25-observer-patterns.md) — Observer pattern behind hooks
 
 ---
 

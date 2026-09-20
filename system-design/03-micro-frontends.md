@@ -1194,7 +1194,7 @@ type EventMap = {
 
 - [`system-design/01-large-scale-architecture.md`](./01-large-scale-architecture.md) — Architecture decisions that precede MFEs
 - [`system-design/02-feature-based-structure.md`](./02-feature-based-structure.md) — Monorepo alternative to MFEs
-- [`javascript-core/15-pub-sub-systems.md`](../javascript-core/15-pub-sub-systems.md) — Event bus implementation
+- [`javascript-core/26-pub-sub-systems.md`](../javascript-core/26-pub-sub-systems.md) — Event bus implementation
 - [`performance/08-bundle-optimization.md`](../performance/08-bundle-optimization.md) — Bundle strategy for MFEs
 - [`browser-internals/10-ssr-csr-isr-streaming.md`](../browser-internals/10-ssr-csr-isr-streaming.md) — SSR for server-side composed MFEs
 

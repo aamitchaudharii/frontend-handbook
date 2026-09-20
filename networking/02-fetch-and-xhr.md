@@ -1339,8 +1339,8 @@ async function loadUserDashboard(userId) {
 
 - [`networking/01-http-protocols.md`](./01-http-protocols.md) — HTTP that Fetch communicates over
 - [`networking/03-websockets-sse.md`](./03-websockets-sse.md) — Real-time alternatives to request/response
-- [`javascript-core/10-async-patterns.md`](../javascript-core/10-async-patterns.md) — Async/await patterns for Fetch
-- [`javascript-core/11-promise-internals.md`](../javascript-core/11-promise-internals.md) — Promises that Fetch uses
+- [`javascript-core/21-async-patterns.md`](../javascript-core/21-async-patterns.md) — Async/await patterns for Fetch
+- [`javascript-core/22-promise-internals.md`](../javascript-core/22-promise-internals.md) — Promises that Fetch uses
 - [`caching/04-data-caching.md`](../caching/04-data-caching.md) — Caching Fetch responses
 
 ---

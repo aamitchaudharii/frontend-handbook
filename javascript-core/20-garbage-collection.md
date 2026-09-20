@@ -2,7 +2,7 @@
 
 > **"The garbage collector is your silent partner. It cleans up after you — but only if you stop holding on to things you no longer need. The moment you understand how it decides what to keep, you start writing code that works with it, not against it."**
 
-Garbage collection is automatic in JavaScript, but it is not free and it is not magic. Every long-lived SPA eventually confronts GC-related problems: pauses, memory pressure, degraded performance. This document goes deeper than `08-memory-management.md` — covering the specific algorithms V8 uses, the tuning knobs available, how GC interacts with the rendering pipeline, and production strategies for GC-friendly code.
+Garbage collection is automatic in JavaScript, but it is not free and it is not magic. Every long-lived SPA eventually confronts GC-related problems: pauses, memory pressure, degraded performance. This document goes deeper than `19-memory-management.md` — covering the specific algorithms V8 uses, the tuning knobs available, how GC interacts with the rendering pipeline, and production strategies for GC-friendly code.
 
 ---
 
@@ -1432,7 +1432,7 @@ Open the Chrome DevTools Memory tab, select "Allocation instrumentation on timel
 
 ## 🔗 Related Topics
 
-- [`javascript-core/08-memory-management.md`](./08-memory-management.md) — Memory lifecycle and leak patterns
+- [`javascript-core/19-memory-management.md`](./19-memory-management.md) — Memory lifecycle and leak patterns
 - [`performance/05-memory-leaks.md`](../performance/05-memory-leaks.md) — Finding and fixing leaks in production
 - [`debugging/02-memory-tab.md`](../debugging/02-memory-tab.md) — DevTools Memory tab in depth
 - [`performance/10-canvas-optimization.md`](../performance/10-canvas-optimization.md) — Object pooling for canvas
@@ -1441,6 +1441,6 @@ Open the Chrome DevTools Memory tab, select "Allocation instrumentation on timel
 
 <div align="center">
 
-**Next:** [`javascript-core/10-async-patterns.md`](./10-async-patterns.md) →
+**Next:** [`javascript-core/21-async-patterns.md`](./21-async-patterns.md) →
 
 </div>

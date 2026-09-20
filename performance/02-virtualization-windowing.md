@@ -1175,7 +1175,7 @@ Compare with the virtual list from Exercise 1 — record:
 
 - [`performance/01-dom-optimization.md`](./01-dom-optimization.md) — DOM fundamentals
 - [`performance/12-large-data-rendering.md`](./12-large-data-rendering.md) — Large data rendering strategies
-- [`javascript-core/09-garbage-collection.md`](../javascript-core/09-garbage-collection.md) — Object pooling for GC reduction
+- [`javascript-core/20-garbage-collection.md`](../javascript-core/20-garbage-collection.md) — Object pooling for GC reduction
 - [`performance/09-intersection-observer.md`](./09-intersection-observer.md) — IntersectionObserver for lazy loading
 - [`projects/01-virtualized-table/`](../projects/01-virtualized-table/) — Full production virtualized table project
 

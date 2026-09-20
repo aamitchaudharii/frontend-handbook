@@ -514,6 +514,6 @@ function once(fn) {
 
 ## 🔗 Related Topics
 
-- [`05-closures.md`](./05-closures.md) — Functions capturing outer variables
-- [`07-scope-chain.md`](./07-scope-chain.md) — How scope works inside functions
-- [`10-async-patterns.md`](./10-async-patterns.md) — Callbacks, promises, async/await
+- [`16-closures.md`](./16-closures.md) — Functions capturing outer variables
+- [`18-scope-chain.md`](./18-scope-chain.md) — How scope works inside functions
+- [`21-async-patterns.md`](./21-async-patterns.md) — Callbacks, promises, async/await

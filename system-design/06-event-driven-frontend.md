@@ -1318,8 +1318,8 @@ initSubscriptions(); // before rendering
 
 ## 🔗 Related Topics
 
-- [`javascript-core/14-observer-patterns.md`](../javascript-core/14-observer-patterns.md) — Observer pattern fundamentals
-- [`javascript-core/15-pub-sub-systems.md`](../javascript-core/15-pub-sub-systems.md) — Full pub/sub implementation
+- [`javascript-core/25-observer-patterns.md`](../javascript-core/25-observer-patterns.md) — Observer pattern fundamentals
+- [`javascript-core/26-pub-sub-systems.md`](../javascript-core/26-pub-sub-systems.md) — Full pub/sub implementation
 - [`system-design/03-micro-frontends.md`](./03-micro-frontends.md) — Events for cross-MFE communication
 - [`system-design/02-feature-based-structure.md`](./02-feature-based-structure.md) — Feature isolation enabled by events
 - [`patterns/01-observer.md`](../patterns/01-observer.md) — Observer pattern in depth

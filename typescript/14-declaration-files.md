@@ -523,5 +523,5 @@ const client = new Analytics("key_123"); // ✅
 ## 🔗 Related Topics
 
 - [`17-tsconfig-deep-dive.md`](./17-tsconfig-deep-dive.md) — `declaration`, `typeRoots`, `types` options
-- [`javascript-core/25-modules-and-bundling.md`](../javascript-core/25-modules-and-bundling.md) — Module systems
+- [`javascript-core/10-modules-and-bundling.md`](../javascript-core/10-modules-and-bundling.md) — Module systems
 - [`projects/11-component-library.md`](../projects/11-component-library.md) — Shipping .d.ts with a library

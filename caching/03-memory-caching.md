@@ -1085,7 +1085,7 @@ e) Common search query cache → LFU with bounded size (capacity=50)
 - [`performance/07-memoization.md`](../performance/07-memoization.md) — Memoization for rendering performance
 - [`caching/04-data-caching.md`](./04-data-caching.md) — Application-level data caching
 - [`system-design/04-state-management-design.md`](../system-design/04-state-management-design.md) — Derived state with selectors
-- [`javascript-core/08-memory-management.md`](../javascript-core/08-memory-management.md) — Memory management fundamentals
+- [`javascript-core/19-memory-management.md`](../javascript-core/19-memory-management.md) — Memory management fundamentals
 
 ---
 

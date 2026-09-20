@@ -764,7 +764,7 @@ Shared Workers are not supported in Safari on iOS. For cross-tab communication o
 
 ## 10. Service Workers (Overview)
 
-Service Workers are a different kind of worker — they act as a **network proxy** sitting between the page and the network. Covered in depth in [`javascript-core/13-service-workers.md`](./13-service-workers.md). Key differences:
+Service Workers are a different kind of worker — they act as a **network proxy** sitting between the page and the network. Covered in depth in [`javascript-core/24-service-workers.md`](./24-service-workers.md). Key differences:
 
 ```
 Feature              Dedicated Worker    Service Worker
@@ -1272,8 +1272,8 @@ console.log("Transfer:", (performance.now() - t2).toFixed(1) + "ms");
 
 ## 🔗 Related Topics
 
-- [`javascript-core/13-service-workers.md`](./13-service-workers.md) — Service workers for caching and offline
-- [`javascript-core/03-event-loop.md`](./03-event-loop.md) — How the main thread event loop works
+- [`javascript-core/24-service-workers.md`](./24-service-workers.md) — Service workers for caching and offline
+- [`javascript-core/14-event-loop.md`](./14-event-loop.md) — How the main thread event loop works
 - [`rendering/03-cooperative-scheduling.md`](../rendering/03-cooperative-scheduling.md) — Alternatives to workers for long tasks
 - [`performance/12-large-data-rendering.md`](../performance/12-large-data-rendering.md) — Processing large datasets
 
@@ -1281,6 +1281,6 @@ console.log("Transfer:", (performance.now() - t2).toFixed(1) + "ms");
 
 <div align="center">
 
-**Next:** [`javascript-core/13-service-workers.md`](./13-service-workers.md) →
+**Next:** [`javascript-core/24-service-workers.md`](./24-service-workers.md) →
 
 </div>

@@ -1399,7 +1399,7 @@ test('product page loads and shows details', async () => {
 
 - [`testing/01-unit-testing.md`](./01-unit-testing.md) — Unit testing fundamentals
 - [`testing/03-e2e-testing.md`](./03-e2e-testing.md) — End-to-end testing with Playwright
-- [`javascript-core/10-async-patterns.md`](../javascript-core/10-async-patterns.md) — Async patterns tested here
+- [`javascript-core/21-async-patterns.md`](../javascript-core/21-async-patterns.md) — Async patterns tested here
 - [`debugging/01-browser-devtools.md`](../debugging/01-browser-devtools.md) — Debugging failing tests
 
 ---

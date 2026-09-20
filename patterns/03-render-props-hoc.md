@@ -801,7 +801,7 @@ function withWindowSize(WrappedComponent) {
 - [`patterns/02-custom-hooks.md`](./02-custom-hooks.md) — The modern replacement for most HOC/render prop use cases
 - [`patterns/01-component-composition.md`](./01-component-composition.md) — UI-level composition
 - [`patterns/05-compound-components.md`](./05-compound-components.md) — Advanced compositional patterns
-- [`javascript-core/04-closures.md`](../javascript-core/04-closures.md) — Closures underpinning render props
+- [`javascript-core/16-closures.md`](../javascript-core/16-closures.md) — Closures underpinning render props
 
 ---
 

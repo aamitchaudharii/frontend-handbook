@@ -459,7 +459,7 @@ function useImageUpload(textareaRef, onChange) {
 
 ## 🔗 Related Topics
 
-- [`javascript-core/14-web-workers.md`](../javascript-core/14-web-workers.md) — Offloading parsing to workers
+- [`javascript-core/23-web-workers.md`](../javascript-core/23-web-workers.md) — Offloading parsing to workers
 - [`performance/04-raf-optimization.md`](../performance/04-raf-optimization.md) — Debouncing patterns
 - [`patterns/02-custom-hooks.md`](../patterns/02-custom-hooks.md) — Hook design used throughout
 

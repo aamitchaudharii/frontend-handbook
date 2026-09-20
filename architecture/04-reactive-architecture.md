@@ -1237,8 +1237,8 @@ function SearchResults() {
 
 ## 🔗 Related Topics
 
-- [`javascript-core/10-async-patterns.md`](../javascript-core/10-async-patterns.md) — Async patterns underlying reactive systems
-- [`javascript-core/14-observer-patterns.md`](../javascript-core/14-observer-patterns.md) — Observer pattern in depth
+- [`javascript-core/21-async-patterns.md`](../javascript-core/21-async-patterns.md) — Async patterns underlying reactive systems
+- [`javascript-core/25-observer-patterns.md`](../javascript-core/25-observer-patterns.md) — Observer pattern in depth
 - [`system-design/04-state-management-design.md`](../system-design/04-state-management-design.md) — State architecture including reactive patterns
 - [`system-design/06-event-driven-frontend.md`](../system-design/06-event-driven-frontend.md) — Event-driven patterns complement reactive
 - [`architecture/01-layered-architecture.md`](./01-layered-architecture.md) — Where reactive state fits in layered architecture

@@ -510,6 +510,6 @@ console.log(Boolean("")); // false (empty string is falsy)
 
 ## 🔗 Related Topics
 
-- [`17-operators-and-expressions.md`](./17-operators-and-expressions.md) — Operators that work on these types
-- [`07-scope-chain.md`](./07-scope-chain.md) — How var/let/const affect scope
-- [`05-closures.md`](./05-closures.md) — How values are captured in closures
+- [`02-operators-and-expressions.md`](./02-operators-and-expressions.md) — Operators that work on these types
+- [`18-scope-chain.md`](./18-scope-chain.md) — How var/let/const affect scope
+- [`16-closures.md`](./16-closures.md) — How values are captured in closures

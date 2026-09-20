@@ -400,6 +400,6 @@ const total = products
 
 ## 🔗 Related Topics
 
-- [`21-objects-and-destructuring.md`](./21-objects-and-destructuring.md) — Object manipulation patterns
-- [`19-functions-fundamentals.md`](./19-functions-fundamentals.md) — Callbacks used in array methods
-- [`26-iterators-and-generators.md`](./26-iterators-and-generators.md) — How for...of actually works
+- [`06-objects-and-destructuring.md`](./06-objects-and-destructuring.md) — Object manipulation patterns
+- [`04-functions-fundamentals.md`](./04-functions-fundamentals.md) — Callbacks used in array methods
+- [`11-iterators-and-generators.md`](./11-iterators-and-generators.md) — How for...of actually works

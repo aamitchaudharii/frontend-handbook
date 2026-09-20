@@ -521,6 +521,6 @@ function deepMerge(target, source) {
 
 ## 🔗 Related Topics
 
-- [`06-prototypes.md`](./06-prototypes.md) — How object inheritance works via prototype chain
-- [`24-es6-modern-syntax.md`](./24-es6-modern-syntax.md) — More modern object features
+- [`17-prototypes.md`](./17-prototypes.md) — How object inheritance works via prototype chain
+- [`09-es6-modern-syntax.md`](./09-es6-modern-syntax.md) — More modern object features
 - [`27-proxy-reflect-and-metaprogramming.md`](./27-proxy-reflect-and-metaprogramming.md) — Intercepting object operations

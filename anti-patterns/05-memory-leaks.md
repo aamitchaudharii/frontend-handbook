@@ -875,7 +875,7 @@ function RealTimeDashboard({ roomId, userId }) {
 
 - [`anti-patterns/04-stale-closures.md`](./04-stale-closures.md) — Closures that cause both leaks and staleness
 - [`patterns/02-custom-hooks.md`](../patterns/02-custom-hooks.md) — Hooks with proper cleanup
-- [`javascript-core/08-memory-management.md`](../javascript-core/08-memory-management.md) — JS memory model and GC
+- [`javascript-core/19-memory-management.md`](../javascript-core/19-memory-management.md) — JS memory model and GC
 
 ---
 

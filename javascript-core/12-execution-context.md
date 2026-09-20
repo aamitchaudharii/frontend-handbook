@@ -775,15 +775,15 @@ start() {
 
 ## 🔗 Related Topics
 
-- [`javascript-core/02-call-stack.md`](./02-call-stack.md) — How contexts stack up
-- [`javascript-core/05-closures.md`](./05-closures.md) — Lexical env kept alive
-- [`javascript-core/07-scope-chain.md`](./07-scope-chain.md) — Outer references in depth
-- [`javascript-core/03-event-loop.md`](./03-event-loop.md) — How contexts interact with async
+- [`javascript-core/13-call-stack.md`](./13-call-stack.md) — How contexts stack up
+- [`javascript-core/16-closures.md`](./16-closures.md) — Lexical env kept alive
+- [`javascript-core/18-scope-chain.md`](./18-scope-chain.md) — Outer references in depth
+- [`javascript-core/14-event-loop.md`](./14-event-loop.md) — How contexts interact with async
 
 ---
 
 <div align="center">
 
-**Next:** [`02-call-stack.md`](./02-call-stack.md) →
+**Next:** [`13-call-stack.md`](./13-call-stack.md) →
 
 </div>

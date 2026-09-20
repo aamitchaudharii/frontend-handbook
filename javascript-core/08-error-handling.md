@@ -464,5 +464,5 @@ if (err) {
 
 ## 🔗 Related Topics
 
-- [`10-async-patterns.md`](./10-async-patterns.md) — Promise error handling in depth
+- [`21-async-patterns.md`](./21-async-patterns.md) — Promise error handling in depth
 - [`debugging/04-error-boundaries.md`](../debugging/04-error-boundaries.md) — React error boundaries

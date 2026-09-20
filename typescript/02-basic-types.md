@@ -434,4 +434,4 @@ function startServer(config: ServerConfig): void {
 
 - [`03-interfaces-and-type-aliases.md`](./03-interfaces-and-type-aliases.md) — Structuring complex types
 - [`05-union-and-intersection-types.md`](./05-union-and-intersection-types.md) — Combining types
-- [`javascript-core/16-variables-and-data-types.md`](../javascript-core/16-variables-and-data-types.md) — JS types this builds on
+- [`javascript-core/01-variables-and-data-types.md`](../javascript-core/01-variables-and-data-types.md) — JS types this builds on

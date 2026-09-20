@@ -1298,8 +1298,8 @@ function render(ctx, delta) {
 ## 🔗 Related Topics
 
 - [`browser-internals/07-gpu-acceleration.md`](../browser-internals/07-gpu-acceleration.md) — GPU rendering and texture uploads
-- [`javascript-core/12-web-workers.md`](../javascript-core/12-web-workers.md) — OffscreenCanvas with Web Workers
-- [`javascript-core/09-garbage-collection.md`](../javascript-core/09-garbage-collection.md) — Object pooling for GC reduction
+- [`javascript-core/23-web-workers.md`](../javascript-core/23-web-workers.md) — OffscreenCanvas with Web Workers
+- [`javascript-core/20-garbage-collection.md`](../javascript-core/20-garbage-collection.md) — Object pooling for GC reduction
 - [`performance/04-raf-optimization.md`](./04-raf-optimization.md) — rAF for canvas animation loops
 
 ---

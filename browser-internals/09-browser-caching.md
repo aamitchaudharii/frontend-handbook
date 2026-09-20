@@ -1280,7 +1280,7 @@ Last-Modified: [deployment timestamp]
 - [`caching/01-http-caching.md`](../caching/01-http-caching.md) — Advanced HTTP caching patterns
 - [`caching/02-service-worker-cache.md`](../caching/02-service-worker-cache.md) — Service Worker caching in depth
 - [`caching/03-memory-caching.md`](../caching/03-memory-caching.md) — In-memory caching patterns
-- [`javascript-core/13-service-workers.md`](../javascript-core/13-service-workers.md) — Service Worker full guide
+- [`javascript-core/24-service-workers.md`](../javascript-core/24-service-workers.md) — Service Worker full guide
 
 ---
 

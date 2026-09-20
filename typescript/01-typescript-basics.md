@@ -375,4 +375,4 @@ formatCurrency(9.99, "EUR", "de-DE"); // "9,99 €"
 
 - [`02-basic-types.md`](./02-basic-types.md) — Full type system overview
 - [`17-tsconfig-deep-dive.md`](./17-tsconfig-deep-dive.md) — Every compiler option explained
-- [`javascript-core/25-modules-and-bundling.md`](../javascript-core/25-modules-and-bundling.md) — Module systems TypeScript uses
+- [`javascript-core/10-modules-and-bundling.md`](../javascript-core/10-modules-and-bundling.md) — Module systems TypeScript uses

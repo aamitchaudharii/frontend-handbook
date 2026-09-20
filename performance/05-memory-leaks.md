@@ -1556,8 +1556,8 @@ const user = cache.get("user:42"); // undefined after TTL
 
 ## 🔗 Related Topics
 
-- [`javascript-core/08-memory-management.md`](../javascript-core/08-memory-management.md) — JS heap and allocation
-- [`javascript-core/09-garbage-collection.md`](../javascript-core/09-garbage-collection.md) — GC algorithms deep dive
+- [`javascript-core/19-memory-management.md`](../javascript-core/19-memory-management.md) — JS heap and allocation
+- [`javascript-core/20-garbage-collection.md`](../javascript-core/20-garbage-collection.md) — GC algorithms deep dive
 - [`debugging/02-memory-tab.md`](../debugging/02-memory-tab.md) — DevTools Memory tab mastery
 - [`anti-patterns/02-memory-leak-patterns.md`](../anti-patterns/02-memory-leak-patterns.md) — Full anti-pattern catalog
 - [`patterns/01-observer.md`](../patterns/01-observer.md) — Observer pattern with safe cleanup

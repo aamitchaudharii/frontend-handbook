@@ -608,6 +608,6 @@ function int32ToBytes(n) {
 
 ## 🔗 Related Topics
 
-- [`12-web-workers.md`](./12-web-workers.md) — SharedArrayBuffer for worker communication
+- [`23-web-workers.md`](./23-web-workers.md) — SharedArrayBuffer for worker communication
 - [`27-proxy-reflect-and-metaprogramming.md`](./27-proxy-reflect-and-metaprogramming.md) — TypedArrays can also be proxied
 - [`performance/10-canvas-optimization.md`](../performance/10-canvas-optimization.md) — Canvas pixel manipulation at scale

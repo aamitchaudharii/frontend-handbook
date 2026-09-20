@@ -1291,7 +1291,7 @@ ws.on("OPERATION", ({ op, version, userId }) => {
 
 - [`networking/01-http-protocols.md`](./01-http-protocols.md) — HTTP that SSE runs over
 - [`networking/02-fetch-and-xhr.md`](./02-fetch-and-xhr.md) — Fetch for SSE implementation
-- [`javascript-core/13-service-workers.md`](../javascript-core/13-service-workers.md) — SW as a WebSocket proxy
+- [`javascript-core/24-service-workers.md`](../javascript-core/24-service-workers.md) — SW as a WebSocket proxy
 - [`caching/04-data-caching.md`](../caching/04-data-caching.md) — Real-time cache updates from WebSocket
 - [`system-design/06-event-driven-frontend.md`](../system-design/06-event-driven-frontend.md) — Event-driven patterns with WebSocket
 

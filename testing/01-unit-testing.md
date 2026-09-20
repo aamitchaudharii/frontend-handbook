@@ -1374,7 +1374,7 @@ test('sends reset email to correct userId', async () => {
 
 - [`testing/02-integration-testing.md`](./02-integration-testing.md) — Integration testing with RTL
 - [`testing/03-e2e-testing.md`](./03-e2e-testing.md) — E2E testing with Playwright
-- [`javascript-core/10-async-patterns.md`](../javascript-core/10-async-patterns.md) — Async patterns that need testing
+- [`javascript-core/21-async-patterns.md`](../javascript-core/21-async-patterns.md) — Async patterns that need testing
 - [`patterns/05-proxy-pattern.md`](../patterns/05-proxy-pattern.md) — Dependency injection patterns
 
 ---

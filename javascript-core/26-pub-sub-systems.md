@@ -1616,7 +1616,7 @@ bus.publish("internal:secret", { key: "val" }); // ❌ blocked
 
 ## 🔗 Related Topics
 
-- [`javascript-core/14-observer-patterns.md`](./14-observer-patterns.md) — Observer vs Pub/Sub comparison
+- [`javascript-core/25-observer-patterns.md`](./25-observer-patterns.md) — Observer vs Pub/Sub comparison
 - [`system-design/06-event-driven-frontend.md`](../system-design/06-event-driven-frontend.md) — Event-driven architecture at scale
 - [`system-design/03-micro-frontends.md`](../system-design/03-micro-frontends.md) — Cross-MFE communication
 - [`system-design/07-plugin-systems.md`](../system-design/07-plugin-systems.md) — Plugin architecture using events

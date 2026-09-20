@@ -1209,8 +1209,8 @@ j) setInterval(fn, 100)        → Macrotask queue (each interval fires a macrot
 
 ## 🔗 Related Topics
 
-- [`javascript-core/03-event-loop.md`](./03-event-loop.md) — Full event loop mechanics
-- [`javascript-core/11-promise-internals.md`](./11-promise-internals.md) — How Promises work internally
+- [`javascript-core/14-event-loop.md`](./14-event-loop.md) — Full event loop mechanics
+- [`javascript-core/22-promise-internals.md`](./22-promise-internals.md) — How Promises work internally
 - [`rendering/03-cooperative-scheduling.md`](../rendering/03-cooperative-scheduling.md) — Practical scheduling patterns
 - [`rendering/05-ui-freezing-solutions.md`](../rendering/05-ui-freezing-solutions.md) — Fixing frozen UIs
 - [`browser-internals/01-rendering-pipeline.md`](../browser-internals/01-rendering-pipeline.md) — The rendering checkpoint in context
@@ -1219,6 +1219,6 @@ j) setInterval(fn, 100)        → Macrotask queue (each interval fires a macrot
 
 <div align="center">
 
-**Next:** [`javascript-core/05-closures.md`](./05-closures.md) →
+**Next:** [`javascript-core/16-closures.md`](./16-closures.md) →
 
 </div>

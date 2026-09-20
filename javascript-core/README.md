@@ -8,10 +8,10 @@
 
 | Level               | Files                      | Topics                                                                       |
 | ------------------- | -------------------------- | ---------------------------------------------------------------------------- |
-| 🟢 **Beginner**     | 01–13                      | Variables, operators, control flow, functions, arrays, objects, strings      |
-| 🟡 **Intermediate** | 14, 18, 19, 20, 23, 08–10  | Scope, closures, prototypes, async, error handling, ES6+, modules            |
-| 🟠 **Advanced**     | 15, 16, 17, 21, 22, 24, 11 | Call stack, event loop, microtasks, memory, GC, promise internals, iterators |
-| 🔴 **Senior**       | 25, 26, 27, 28, 12, 13     | Workers, service workers, design patterns, Proxy/Reflect, typed arrays       |
+| 🟢 **Beginner**     | 01–11                      | Variables, operators, control flow, functions, arrays, objects, strings      |
+| 🟡 **Intermediate** | 12, 16, 17, 18, 21, 08–10  | Scope, closures, prototypes, async, error handling, ES6+, modules            |
+| 🟠 **Advanced**     | 13, 14, 15, 19, 20, 22, 11 | Call stack, event loop, microtasks, memory, GC, promise internals, iterators |
+| 🔴 **Senior**       | 23, 24, 25, 26, 27, 28     | Workers, service workers, design patterns, Proxy/Reflect, typed arrays       |
 
 ---
 
@@ -33,11 +33,11 @@
 
 | File                                                         | Topic             | What You'll Learn                                                             |
 | ------------------------------------------------------------ | ----------------- | ----------------------------------------------------------------------------- |
-| [`20-scope-chain.md`](./20-scope-chain.md)                   | Scope             | Lexical scope, block scope, TDZ, scope chain lookup                           |
-| [`18-closures.md`](./18-closures.md)                         | Closures          | Closure mechanics, private state, module pattern, common pitfalls             |
-| [`14-execution-context.md`](./14-execution-context.md)       | Execution Context | GEC/FEC, variable environment, hoisting explained                             |
-| [`19-prototypes.md`](./19-prototypes.md)                     | Prototypes        | `[[Prototype]]`, inheritance chain, `Object.create`, class syntax             |
-| [`23-async-patterns.md`](./23-async-patterns.md)             | Async Patterns    | Callbacks → Promises → async/await, error handling, patterns                  |
+| [`18-scope-chain.md`](./18-scope-chain.md)                   | Scope             | Lexical scope, block scope, TDZ, scope chain lookup                           |
+| [`16-closures.md`](./16-closures.md)                         | Closures          | Closure mechanics, private state, module pattern, common pitfalls             |
+| [`12-execution-context.md`](./12-execution-context.md)       | Execution Context | GEC/FEC, variable environment, hoisting explained                             |
+| [`17-prototypes.md`](./17-prototypes.md)                     | Prototypes        | `[[Prototype]]`, inheritance chain, `Object.create`, class syntax             |
+| [`21-async-patterns.md`](./21-async-patterns.md)             | Async Patterns    | Callbacks → Promises → async/await, error handling, patterns                  |
 | [`08-error-handling.md`](./08-error-handling.md)             | Error Handling    | `try`/`catch`/`finally`, error types, custom errors, async errors             |
 | [`09-es6-modern-syntax.md`](./09-es6-modern-syntax.md)       | ES6+ Syntax       | Destructuring, spread, template literals, optional chaining, nullish, symbols |
 | [`10-modules-and-bundling.md`](./10-modules-and-bundling.md) | Modules           | ESM vs CJS, `import`/`export`, dynamic imports, tree shaking                  |
@@ -48,12 +48,12 @@
 
 | File                                                                 | Topic                  | What You'll Learn                                                          |
 | -------------------------------------------------------------------- | ---------------------- | -------------------------------------------------------------------------- |
-| [`15-call-stack.md`](./15-call-stack.md)                             | Call Stack             | Stack frames, stack overflow, tail call optimization                       |
-| [`16-event-loop.md`](./16-event-loop.md)                             | Event Loop             | Task queue, blocking the main thread, rAF                                  |
-| [`17-microtask-vs-macrotask.md`](./17-microtask-vs-macrotask.md)     | Micro vs Macro Tasks   | Precise ordering, queueMicrotask, scheduling                               |
-| [`21-memory-management.md`](./21-memory-management.md)               | Memory                 | Stack vs heap, reference counting, mark-and-sweep                          |
-| [`22-garbage-collection.md`](./22-garbage-collection.md)             | Garbage Collection     | GC algorithms, generational GC, WeakRef, finalization registry             |
-| [`24-promise-internals.md`](./24-promise-internals.md)               | Promise Internals      | States, microtask queue, chaining mechanics, Promise.all                   |
+| [`13-call-stack.md`](./13-call-stack.md)                             | Call Stack             | Stack frames, stack overflow, tail call optimization                       |
+| [`14-event-loop.md`](./14-event-loop.md)                             | Event Loop             | Task queue, blocking the main thread, rAF                                  |
+| [`15-microtask-vs-macrotask.md`](./15-microtask-vs-macrotask.md)     | Micro vs Macro Tasks   | Precise ordering, queueMicrotask, scheduling                               |
+| [`19-memory-management.md`](./19-memory-management.md)               | Memory                 | Stack vs heap, reference counting, mark-and-sweep                          |
+| [`20-garbage-collection.md`](./20-garbage-collection.md)             | Garbage Collection     | GC algorithms, generational GC, WeakRef, finalization registry             |
+| [`22-promise-internals.md`](./22-promise-internals.md)               | Promise Internals      | States, microtask queue, chaining mechanics, Promise.all                   |
 | [`11-iterators-and-generators.md`](./11-iterators-and-generators.md) | Iterators & Generators | Iterator protocol, `Symbol.iterator`, generator functions, lazy evaluation |
 
 ---
@@ -62,12 +62,12 @@
 
 | File                                                                                   | Topic            | What You'll Learn                                            |
 | -------------------------------------------------------------------------------------- | ---------------- | ------------------------------------------------------------ |
-| [`25-web-workers.md`](./25-web-workers.md)                                             | Web Workers      | Off-main-thread execution, MessageChannel, SharedArrayBuffer |
-| [`26-service-workers.md`](./26-service-workers.md)                                     | Service Workers  | Lifecycle, caching strategies, background sync, push         |
-| [`27-observer-patterns.md`](./27-observer-patterns.md)                                 | Observer Pattern | MutationObserver, IntersectionObserver, ResizeObserver       |
-| [`28-pub-sub-systems.md`](./28-pub-sub-systems.md)                                     | Pub/Sub Systems  | Event bus architecture, decoupled communication patterns     |
-| [`12-proxy-reflect-and-metaprogramming.md`](./12-proxy-reflect-and-metaprogramming.md) | Proxy & Reflect  | Traps, reactive objects, validation, metaprogramming         |
-| [`13-typed-arrays-and-binary-data.md`](./13-typed-arrays-and-binary-data.md)           | Typed Arrays     | ArrayBuffer, DataView, TypedArrays, binary protocols         |
+| [`23-web-workers.md`](./23-web-workers.md)                                             | Web Workers      | Off-main-thread execution, MessageChannel, SharedArrayBuffer |
+| [`24-service-workers.md`](./24-service-workers.md)                                     | Service Workers  | Lifecycle, caching strategies, background sync, push         |
+| [`25-observer-patterns.md`](./25-observer-patterns.md)                                 | Observer Pattern | MutationObserver, IntersectionObserver, ResizeObserver       |
+| [`26-pub-sub-systems.md`](./26-pub-sub-systems.md)                                     | Pub/Sub Systems  | Event bus architecture, decoupled communication patterns     |
+| [`27-proxy-reflect-and-metaprogramming.md`](./27-proxy-reflect-and-metaprogramming.md) | Proxy & Reflect  | Traps, reactive objects, validation, metaprogramming         |
+| [`28-typed-arrays-and-binary-data.md`](./28-typed-arrays-and-binary-data.md)           | Typed Arrays     | ArrayBuffer, DataView, TypedArrays, binary protocols         |
 
 ---
 
@@ -75,12 +75,12 @@
 
 ### Complete beginner (no prior JS)
 
-`01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 20 → 18 → 09 → 10 → 23 → 19 → 14 → 15 → 16 → 17 → 24`
+`01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 18 → 16 → 09 → 10 → 21 → 17 → 12 → 13 → 14 → 15 → 22`
 
 ### Intermediate upgrading skills
 
-`20 → 18 → 14 → 08 → 09 → 10 → 19 → 23 → 24 → 21 → 16 → 17 → 11`
+`18 → 16 → 12 → 08 → 09 → 10 → 17 → 21 → 22 → 19 → 14 → 15 → 11`
 
 ### Senior / interview prep
 
-`16 → 17 → 21 → 22 → 24 → 11 → 12 → 13 → 25 → 26 → 27 → 28`
+`14 → 15 → 19 → 20 → 22 → 11 → 27 → 28 → 23 → 24 → 25 → 26`

@@ -1324,7 +1324,7 @@ j) Product filters → URL STATE (shareable, browser history)
 
 - [`system-design/01-large-scale-architecture.md`](./01-large-scale-architecture.md) — Architecture that shapes state design
 - [`system-design/02-feature-based-structure.md`](./02-feature-based-structure.md) — State location within feature modules
-- [`javascript-core/10-async-patterns.md`](../javascript-core/10-async-patterns.md) — Async patterns for server state
+- [`javascript-core/21-async-patterns.md`](../javascript-core/21-async-patterns.md) — Async patterns for server state
 - [`performance/07-memoization.md`](../performance/07-memoization.md) — Memoizing derived state
 
 ---
